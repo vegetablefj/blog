@@ -1,0 +1,84 @@
+baseURL: https://vegetablefj.github.io/blog/
+languageCode: en-us
+theme: hugo-theme-reimu
+paginate: 6
+title: vegetablefj
+copyright: vegetablefj
+
+outputs:
+  home:
+    - HTML
+    - RSS
+  page:
+    - HTML
+    - RSS
+  section:
+    - HTML
+    - RSS
+outputFormats:
+  RSS:
+    baseName: rss
+    mediaType: "application/rss"
+    isPlainText: true
+  Algolia:
+    baseName: algolia
+    isPlainText: true
+    mediaType: "application/json"
+    notAlternative: true
+
+params:
+  author: vegetablefj
+  description: "少女祈祷中..."
+  subtitle: "少女祈祷中..."
+  avatar: avatar.jpg
+  banner: "images/uuzbanner.png"
+  # You can also write it in the form of the following url
+  # banner: "https://example.com"
+
+  # If you want to use the srcset attribute, please enable it
+  banner_srcset:
+    enable: false
+    srcset:
+      - src: "images/banner-600w.webp"
+        media: "(max-width: 479px)"
+      - src: "images/banner-800w.webp"
+        media: "(max-width: 799px)"
+      - src: "images/banner.webp"
+        media: "(min-width: 800px)"
+
+  avatar: "avatar.jpg"
+  # Sidebar
+  sidebar: right
+  footer:
+    since: 2025 # 2020-current year
+    powered: true
+    count: true
+    busuanzi: true
+    icon:
+      url: "../images/taichi.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
+      rotate: true
+      mask: true # whether to use the images as a mask
+  widgets:
+  - category
+  - tag
+  - tagcloud
+  - recent_posts
+  
+  reimu_cursor:
+    enable: true
+    cursor:
+      default: ../images/cursor/reimu-cursor-default.png  # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
+      pointer: ../images/cursor/reimu-cursor-pointer.png
+      text: ../images/cursor/reimu-cursor-text.png
+markup:
+    goldmark:
+        renderer:
+            ## Set to true if you have HTML content inside Markdown
+            unsafe: true
+    tableOfContents:
+        endLevel: 3
+        ordered: true
+        startLevel: 2
+    highlight:
+        noClasses: false
+        lineNos: true
