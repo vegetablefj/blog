@@ -9,7 +9,7 @@ lastmod: 2025-03-05T15:26:27+08:00
 math: true
 mermaid: false
 
-cover: /blog/post/2025/03/05/博客启动/cover.png
+cover: /blog/post/2025/03/05/博客启动/cover.jpg
 
 categories:
   - 建站记录
@@ -50,13 +50,18 @@ date: 2025-03-05T15:26:27+08:00
 # 你的文章最后修改时间
 lastmod: 2025-03-05T15:26:27+08:00
 
+# 启用 math (LaTeX)
 math: true
+# 默认不启用 mermaid
 mermaid: false
 
+# 你的文章封面（注释以后会使用随机的）
 cover: /blog/post/2025/03/05/博客启动/cover.png
 
+# 你的文章分类
 categories:
   - 建站记录
+# 你的文章标签
 tags:
   - Hugo
   - 计算机科学与技术
@@ -73,6 +78,10 @@ tips:
 常见的配置我已经写在 `hugo.yaml` 中了，你可以直接修改 `hugo.yaml` 中的配置  
 不过 `config/_default/params.yml` 中的配置会覆盖 `hugo.yaml` 中的配置  
 （如果你听不懂的话可以忽略这段话）
+
+建议修改：  
+banner / favicon / avatar
+这些文件或多或少都在 `static` 文件夹中，你可以直接替换掉或者在 `params` 里面修改路径 
 
 #### data yaml 文件
 
@@ -129,3 +138,9 @@ git commit -m "<你的 commit 信息>"
 git push -u origin master
 ```
 然后返回 [你的仓库](https://github.com/vegetablefj/blog) 可以看到一个在部署的黄点
+
+过一会应该就部署完成了
+
+之后你每次 `push` 到仓库，GitHub Actions 都会自动帮你部署
+
+
