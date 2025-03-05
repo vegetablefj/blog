@@ -15,7 +15,8 @@ categories:
   - 建站记录
 tags:
   - Hugo
-  - 计算机科学与技术
+  - git
+  - GitHub
 ---
 # 博客，启动
 
@@ -34,6 +35,10 @@ hugo server -D
 ```shell
 hugo new post/2025/03/05/博客启动/index.md
 ```
+### 编写文章
+
+在 `content/post/2025/03/05/博客启动/index.md` 中编写文章，你可以使用 Markdown 语法编写文章。
+
 #### front matter
 
 本篇文章的 front matter 如下：
