@@ -107,7 +107,7 @@
     giscusScript.setAttribute('data-reactions-enabled', '{{ $params.giscus.reactionsEnabled }}');
     giscusScript.setAttribute('data-emit-metadata', '{{ $params.giscus.emitMetadata }}');
     giscusScript.setAttribute('data-input-position', '{{ $params.giscus.inputPosition }}');
-    giscusScript.setAttribute('data-theme', domMode === 'dark' ? 'dark' : 'light');
+    giscusScript.setAttribute('data-theme', domMode === 'dark' ? 'noborder_dark' : 'noborder_light');
     giscusScript.setAttribute('data-lang', '{{ $params.giscus.lang }}');
     giscusScript.setAttribute('crossorigin', 'anonymous');
     giscusScript.async = true;
