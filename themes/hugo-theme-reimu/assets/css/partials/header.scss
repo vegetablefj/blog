@@ -14,8 +14,10 @@
     display: block;
     object-fit: cover;
     transition: 0.3s;
-    -webkit-mask: linear-gradient(to top, transparent, #fff 50%);
-    mask: linear-gradient(to top, transparent, #fff 50%);
+    -webkit-mask: linear-gradient(to top, transparent, #fff 100%);
+    mask: linear-gradient(to top, transparent, #fff 100%);
+    // 增加 高斯模糊 （毛玻璃效果）
+    filter: blur(6px); /* 0.5% of viewport width */
 
     @media #{$mg-large} {
       height: 120%;
