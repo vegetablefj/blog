@@ -11,16 +11,23 @@ lastmod: 2025-10-23T18:15:00+08:00
 - 站名： vegetable_fj的博客
 - 站长： vegetable_fj
 
+~~Anyway，这个页面放的图标有点多，有点容易4，甚至链接的网站说不定哪天也4了~~
+
 
 ## 小伙伴们
 
 {{< friendsLink >}}
 
-## 其他链接
+## 其他有关vegetable_fj
 
-- vegetable_fj的账号
-- 实用工具
-- 神奇妙妙网站
+{{< accountsCard >}}
+
+## 实用工具
+
+{{< toolsCard >}}
+
+
+## 神奇妙妙网站
 
 
 
