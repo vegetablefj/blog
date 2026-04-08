@@ -1,7 +1,8 @@
 baseURL: https://vegetablefj.github.io/blog/
 languageCode: en-us
 theme: hugo-theme-reimu
-paginate: 6
+pagination:  
+  pagerSize: 6
 title: vegetablefj
 copyright: vegetablefj
 
@@ -46,7 +47,6 @@ params:
       - src: "images/banner.webp"
         media: "(min-width: 800px)"
 
-  avatar: "avatar.jpg"
   # Sidebar
   sidebar: right
   footer:
@@ -75,6 +75,12 @@ markup:
         renderer:
             ## Set to true if you have HTML content inside Markdown
             unsafe: true
+        extensions:
+            passthrough:
+                enable: true
+                delimiters:
+                    block: [["\\[", "\\]"], ["$$", "$$"]]
+                    inline: [["\\(", "\\)"], ["$", "$"]]
     tableOfContents:
         endLevel: 3
         ordered: true

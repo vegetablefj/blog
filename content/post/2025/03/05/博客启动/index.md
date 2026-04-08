@@ -15,7 +15,6 @@ categories:
   - 建站记录
 tags:
   - Hugo
-  - git
   - GitHub
 ---
 # 博客，启动
