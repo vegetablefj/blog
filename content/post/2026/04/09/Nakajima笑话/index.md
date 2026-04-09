@@ -8,7 +8,7 @@ lastmod: 2026-04-09T17:14:04+08:00
 math: true
 mermaid: false
 
-cover: /blog/post/2026/04/09/Nakajima笑话/cover.jpg
+cover: /blog/post/2026/04/09/nakajima笑话/cover.jpg
 
 
 
