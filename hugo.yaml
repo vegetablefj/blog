@@ -6,6 +6,10 @@ pagination:
 title: vegetablefj
 copyright: vegetablefj
 
+hasCJKLanguage: true
+
+defaultContentLanguage: zh-cn
+
 outputs:
   home:
     - HTML
