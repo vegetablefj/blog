@@ -242,17 +242,17 @@ gitalk:
 
 # https://giscus.app/zh-CN
 giscus:
-  enable: false
-  repo:
-  repoId:
-  category:
-  categoryId:
-  mapping: mapping
+  enable: true
+  repo: vegetablefj/blog
+  repoId: R_kgDOODfiLg
+  category: Announcements
+  categoryId: DIC_kwDOODfiLs4CnmGo
+  mapping: pathname
   strict: 0
   reactionsEnabled: 1
   emitMetadata: 0
   inputPosition: bottom
-  # commentTheme: preferred_color_scheme invalid
+  commentTheme: light
   lang: zh-CN
 
 ########################################
