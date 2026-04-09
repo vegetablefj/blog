@@ -20,14 +20,6 @@ lastmod: 2026-04-09
 - 2026年4月9日深夜，vegetable_fj兴致大发，借助Deepwiki学会了如何上传文章。当天他更新了大量内容
 - 未完待续……
 
-## 关于vegetable_fj
-
->我觉得你和not_a_goalkeeper是咱们班上最帅的两个。——行人
-
->神球频出啊!——刘国正，于观看vegetable_fj打乒乓球时
-
->大卫戴[强][强]  ——Yuni
-
 
 
 ## 在这里你能看到
@@ -46,6 +38,15 @@ lastmod: 2026-04-09
 - Riemann猜想/Hodge猜想/Jacobian猜想的正确证明
 - vegetable_fj交npy了的消息（呃……）
 - e.t.c.
+
+## 关于vegetable_fj
+
+>我觉得你和not_a_goalkeeper是咱们班上最帅的两个。——行人
+
+>神球频出啊！——刘国正，于观看vegetable_fj打乒乓球时
+
+>大卫戴👍👍  ——Yuni
+
 
 ## 特别鸣谢
 - 感谢日奈老师对本站最初建设的无私帮助，和对vegetable_fj光滑的大脑的无条件的包容
