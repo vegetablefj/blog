@@ -1,7 +1,15 @@
 - name: 不漏arXiv
-  url: bluearxiv.cm
+  url: bluearxiv.cn
   desc: 每日最新论文AI分析与精选
   image: https://vegetablefj.github.io/blog/favicon.ico
+- name: 将举行的代数几何会议
+  url: https://math.stanford.edu/~vakil/conferences.html
+  desc: Upcoming conferences in algebraic geometry
+  image: https://www.google.com/s2/favicons?sz=64&domain=math.stanford.edu/~vakil/conferences.html
+- name: Adjectives Project
+  url: https://adjectivesproject.org/
+  desc: 概形/态射性质字典
+  image: https://adjectivesproject.org/img/favicon.png
 - name: GAP
   url: https://www.gap-system.org
   desc: 有限群计算工具
@@ -30,50 +38,18 @@
   url: https://wantwords.net/
   desc: 反向词典
   image: https://wantwords.net/static/image/zm2.ico
-- name: ACG.RIP
-  url: https://acg.rip/
-  desc: ACG资源下载
-  image: https://www.google.com/s2/favicons?sz=64&domain=acg.rip/
-- name: 萌番组
-  url: https://bangumi.moe/
-  desc: 动画资源下载
-  image: https://www.google.com/s2/favicons?sz=64&domain=bangumi.moe/
-- name: 轻小说文库
-  url: https://lnovel.org/
-  desc: 轻小说资源下载
-  image: https://lnovel.org/uploads/auth/app/icon/000/000/005/0ba10cca.png
-- name: 搜图Bot酱
-  url: https://soutubot.moe/
-  desc: NH局部搜图
-  image: https://soutubot.moe/favicon.ico
-- name: ascii2d
-  url: https://ascii2d.net/
-  desc: 二次元画像詳細検索
-  image: https://ascii2d.net/assets/favicon-461e7af86f6c1a73f716cf8c729e65d6164851b66470932d01ef928ebbaed6ba.ico
-- name: Konachan
-  url: https://konachan.net/
-  desc: 二次元壁纸
-  image: https://konachan.net/favicon.ico
-- name: Ren'Py
-  url: https://renpy.org/
-  desc: 视觉小说引擎
-  image: https://renpy.org/static/favicon.ico
-- name: 诗词吾爱网
-  url: https://www.52shici.com/
-  desc: 诗词格律工具
-  image: https://www.52shici.com/favicon.ico
 - name: 书法字典
   url: https://www.shufazidian.com/
   desc: 在线书法字典
   image: https://www.shufazidian.com/favicon.ico
+- name: 诗词吾爱网
+  url: https://www.52shici.com/
+  desc: 诗词格律工具
+  image: https://www.52shici.com/favicon.ico
 - name: 团子AI
   url: https://tuanziai.com/
   desc: 在线音频处理工具箱
   image: https://tuanziai.com/favicon.ico
-- name: MyFreeMP3
-  url: https://www.myfreemp3.com.cn/
-  desc: 音乐资源下载
-  image: https://www.myfreemp3.com.cn/favicon.ico
 - name: FaceCheck.ID
   url: https://facecheck.id/zh
   desc: 照片面部识别
@@ -82,7 +58,13 @@
   url: https://arena.ai/
   desc: AI竞技场
   image: https://arena.ai/images/favicon-rebrand.svg
-- name: 食用手册
-  url: https://cook.yunyoujun.cn/
-  desc: 菜谱
-  image: https://cook.yunyoujun.cn/favicon.svg
+- name: 搜图Bot酱
+  url: https://soutubot.moe/
+  desc: NH局部搜图
+  image: https://soutubot.moe/favicon.ico
+- name: ascii2d
+  url: https://ascii2d.net/
+  desc: 二次元画像詳細検索
+  image: https://ascii2d.net/assets/favicon-461e7af86f6c1a73f716cf8c729e65d6164851b66470932d01ef928ebbaed6ba.ico
+
+

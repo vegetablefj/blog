@@ -27,7 +27,13 @@ lastmod: 2026-04-09
 {{< toolsCard >}}
 
 
+## 一些知识/数据库
+
+{{< databasesCard >}}
+
+
 ## 神奇妙妙网站
 
+{{< websCard >}}
 
 

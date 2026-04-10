@@ -1,0 +1,16 @@
+- name: 动画巡礼
+  url: https://www.anitabi.cn/
+  desc: 动画巡礼地图
+  image: https://www.google.com/s2/favicons?sz=64&domain=www.anitabi.cn/
+- name: 可怜BOT
+  url: https://bot-docs.otmdb.cn/
+  desc: 十分伟大的BOT
+  image: https://bot-docs.otmdb.cn/logo.png
+- name: Ren'Py
+  url: https://renpy.org/
+  desc: 视觉小说引擎
+  image: https://renpy.org/static/favicon.ico
+- name: 食用手册
+  url: https://cook.yunyoujun.cn/
+  desc: 菜谱
+  image: https://cook.yunyoujun.cn/favicon.svg
