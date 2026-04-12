@@ -8,7 +8,7 @@ lastmod: 2026-04-13
 math: true
 mermaid: false
 
-cover: /blog/post/2026/04/12/Schur/cover.jpg
+cover: /blog/post/2026/04/12/schur/cover.jpg
 
 
 categories:
