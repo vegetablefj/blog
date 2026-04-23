@@ -15,6 +15,7 @@ cover: /blog/post/2023/01/01/2023作品/cover.jpg
 categories:
   - 词
   - 旧诗
+  - 归档
 tags:
   - 精神病
 ---

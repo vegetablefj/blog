@@ -13,6 +13,7 @@ cover: /blog/post/2026/04/20/梦/cover.jpg
 
 categories:
   - 生活记录
+  - 归档
 tags:
   - 精神病
 ---

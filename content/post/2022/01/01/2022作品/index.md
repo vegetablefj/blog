@@ -15,6 +15,7 @@ cover: /blog/post/2022/01/01/2022作品/cover.jpg
 categories:
   - 现代诗
   - 文言
+  - 归档
 tags:
   - 精神病
 ---
