@@ -438,12 +438,12 @@ service_worker:
 # Experimental
 live2d:
   enable: false
-  position: left # left or right
+  position: right # left or right
 
 # Experimental
 live2d_widgets:
   enable: true
-  position: left # left or right
+  position: right # left or right
 
 # https://github.com/CodeByZach/pace
 pace:
