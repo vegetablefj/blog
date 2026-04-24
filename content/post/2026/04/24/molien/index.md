@@ -9,7 +9,7 @@ lastmod: 2026-04-24T07:44:23+08:00
 math: true
 mermaid: false
 
-cover: /blog/post/2026/04/24/Molien/cover.png
+cover: /blog/post/2026/04/24/molien/cover.png
 
 
 
