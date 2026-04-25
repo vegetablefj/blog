@@ -26,7 +26,7 @@ $$\sum_{d=0}^\infty \dim(R_d^G) t^d=\frac{1}{|G|} \sum_{g\in G} \frac{1}{\det(1-
 
 ## 单个循环
 
-考虑$C_n=\langle \sigma=(1\; 2\; \cdots\; n)\rangle < S_n $, 注意到在$V^*$上(这里无异于在$V$上), $\sigma^k$的特征值恰为所有的$\frac{n}{\gcd(n,k)}$次单位根, 每个出现$\gcd(n,k)$次. 于是
+考虑$C_n=\langle \sigma=(1\; 2\; \cdots\; n)\rangle < S_n $, 通过置换自然作用在$V=\mathbb{C}^n$上. 注意到在$V^*$上(这里无异于在$V$上), $\sigma^k$的特征值恰为所有的$\frac{n}{\gcd(n,k)}$次单位根, 每个出现$\gcd(n,k)$次. 于是
 $$\det(1-t\sigma^k|_{V^*})=\left(1-t^{\frac{n}{\gcd(n,k)}}\right)^{\gcd(n,k)}.$$ 
 
 从而
@@ -56,7 +56,9 @@ $$\begin{align*}
 其中$\mathrm{const}_n(-)$表示提取$t$的$n$次项系数. 经过与前面相同的计算, 我们得到所求的维数即为
 $$\frac{1}{d} \sum_{m|n,m|d}\varphi(m) \binom{\frac{n}{m}+\frac{d}{m}-1}{\frac{n}{m}}.$$
 
-这里的记号处理并不太好. 在交换$n$和$d$之后我们能够发现结果是一样的. 不过我想不出来有什么直接的对应.
+这里的记号处理并不太好. 在交换$n$和$d$之后我们能够发现结果是一样的. 
+
+这件事情可以被自然地实现，参见Brkhu先生的评论。
 
 ## 后者的由来
 
