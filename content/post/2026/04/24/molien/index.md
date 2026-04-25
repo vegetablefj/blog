@@ -4,7 +4,7 @@ description: 不那么有趣地求个和
 keywords: molien
 
 date: 2026-04-24T07:44:23+08:00
-lastmod: 2026-04-24T07:44:23+08:00
+lastmod: 2026-04-26
 
 math: true
 mermaid: false

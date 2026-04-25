@@ -65,7 +65,7 @@ params:
   widgets:
   - category
   - tag
-  - tagcloud
+  #- tagcloud
   - recent_posts
   
   reimu_cursor:
