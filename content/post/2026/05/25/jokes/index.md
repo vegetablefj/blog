@@ -26,6 +26,8 @@ tags:
 
 ## 数学
 
+- （by jbz_ayaka）开这门课的目的是研究Kac Moody(开课目的)代数。
+
 - （by jbz_ayaka）魔术师在变魔术的时候，只要口袋一拉，就能把东西变没，所以是Kodaira vanishing。
 
 - （by Brkhu）vegetable_fj的房间里有很多模型，所以是模形式（模型室）。
