@@ -26,7 +26,7 @@ tags:
 
 ## 数学
 
-- （by jbz_ayaka）开这门课的目的是研究Kac Moody(开课目的)代数。
+- （by jbz_ayaka）开这门课的目的是研究Kac Moody（开课目的）代数。
 
 - （by jbz_ayaka）魔术师在变魔术的时候，只要口袋一拉，就能把东西变没，所以是Kodaira vanishing。
 
@@ -90,3 +90,5 @@ tags:
 ## 其他
 
 - （by jbz_ayaka）做麻食的房间是蘑菇（mushroom）。
+
+- （by symplicial cat）某人有多套房产，所以他是house多夫（Hausdorff）。
