@@ -3,7 +3,7 @@ title: 梦
 description: 梦里不知身是客，一晌贪欢。
 
 date: 2026-04-20T22:31:09+08:00
-lastmod: 2026-05-13
+lastmod: 2026-05-25
 math: true
 mermaid: false
 
@@ -28,9 +28,8 @@ tags:
 
 *2025.8.27*
 
-```
 5LiA5Liq5a6Y5ZGY5Zyo5LiK5rW35bmy5LqG5LuA5LmI5Z2P5LqL5Y+R55Sf5LqG5Yay56qB77yM6K6p5LiA5Lqb5riF5Y2O55qE5ZCM5a2m5rKh5rOV5L+d56CU44CCCgrov4fkuoblh6DlpKnov5vooYzkuobkuIDkuKrlvojlhoXpg6jnuqfliKvlvojpq5jnmoTlpKfkvJrvvIzlhajkvZPmuIXljY7lrabnlJ/pg73lj4LliqDkuobvvIznu4/ov4forqjorrrlhrPlrprpgqPkuKrkurrlkozmuIXljY7lkIzlrabpg73ml6LlvoDkuI3lko7kuI3lpITnvZrvvIzmmI7noa7kuobmlL/msrvkuIropoHopoHkuIDoh7Tlr7nlpJbjgIIKCuacgOWQjue7k+adn+eahOaXtuWAme+8jOacieS4gOS4quWtpueUn+e7hOaIkOeahOaWuemYn+S7juaIkeS7rOmdouWJjei1sOi/h++8jOaIkeWWiuS6huS4gOWPpeKAnOacieaVjOWcqOWGheKAne+8jOeEtuWQjueqgeeEtuacieS4gOe+pOaIkeS4jeiupOivhueahOWtpueUn+W8gOWni+S4gOi+ueWUseatjOS4gOi+uemXtOath+edgOWWiuKAnOacieaVjOWcqOWGheKAneOAgg==
-```
+
 
 ## 代数TV
 
@@ -57,3 +56,15 @@ tags:
 梦到有一个不知道是谁要讲讨论班，但是被10或者15个站成球堆阵型的女性拦住了。虽然我不知道武汉话是怎么说的，但是她们用武汉话抨击那个人。那个人突然开口说了几句特别标准的武汉话，把那些个姐们都惊到了。
 
 然后或许就被闹钟叫醒了。
+
+## 霓虹
+
+*2026.5.25*
+
+过往有时也会梦到去霓虹旅行，但是通常都由于剧情前不着村后不着店，在梦里就能意识到是在做梦。
+
+这回梦到和靳先生，梁先生一起去霓虹，刚下飞机拉着行李箱，突然想起来没有买流量卡，问梁先生之后决定买流量包。
+
+由于场景过于真实，在梦里反复确认，认为不是在做梦，于是开始规划在霓虹什么地方可以看到霓虹特有的鸟，还想起来崖海鸦。
+
+醒了的时候看到床侧的栏杆还挺震惊的。
