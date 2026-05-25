@@ -42,9 +42,15 @@ tags:
 
 - （by vegetable_fj）如果单老师和李老师一起发现了一种李代数，那么simple的这种代数可以叫做单李单李代数。
 
+- （by jbz_ayaka）苏老师和行人先生都生活在线性空间（Li-near space，因为他们都和姓李的人很近）中。
+
 ## 台球
 
 - （by jbz_ayaka）蒋先生借10号球下球，就是蒋介石。
+
+- （by jbz_ayaka）hyperkahler（黑八k了）
+
+- （by jbz_ayaka）Yoneda Lemma（you来打，来吗）
 
 - （by jbz_ayaka）k球没k好又把球k死了，就是k又k死（killkiss）。
 
@@ -59,6 +65,8 @@ tags:
 
 
 ## 其他
+
+- （by jbz_ayaka）这是张顶新（张鼎新）的桌子。
 
 - （by jbz_ayaka）vegetable_fj的房间里有很多模型，所以是模形式（模型室）。
 
