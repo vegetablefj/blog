@@ -87,8 +87,9 @@ tags:
 
 - （by ？）杀蟑螂的药可以叫蟑疼药，治疗心脏疼的药可以叫心疼药。
 
+- （by symplicial cat）某人有多套房产，所以他是house多夫（Hausdorff）。
+
 ## 其他
 
 - （by jbz_ayaka）做麻食的房间是蘑菇（mushroom）。
 
-- （by symplicial cat）某人有多套房产，所以他是house多夫（Hausdorff）。
