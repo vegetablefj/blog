@@ -1,5 +1,5 @@
 baseURL: https://vegetablefj.github.io/blog/
-languageCode: en-us
+locale: en-us
 theme: hugo-theme-reimu
 pagination:  
   pagerSize: 25
