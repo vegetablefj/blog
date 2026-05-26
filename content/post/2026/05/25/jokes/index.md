@@ -32,7 +32,7 @@ tags:
 
 - （by Brkhu）vegetable_fj的房间里有很多模型，所以是模形式（模型室）。
 
-- （by vegetable_fj）见[Nakajima笑话](/blog/post/2026/04/09/Nakajima笑话)  
+- （by vegetable_fj）见[Nakajima笑话](/blog/post/2026/04/09/nakajima笑话/)  
 
 - （by brkhu）耳机是一种duality，是什么呢？
 
