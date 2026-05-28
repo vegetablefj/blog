@@ -1,6 +1,6 @@
 ---
 title: 2023作品
-description: 2023年的创作。多多关照
+description: 何人写，朝朝暮暮，赛博碑帖。
 
 date: 2023-01-01
 lastmod: 2026-04-09T19:38:08+08:00

@@ -2,7 +2,7 @@ baseURL: https://vegetablefj.github.io/blog/
 locale: en-us
 theme: hugo-theme-reimu
 pagination:  
-  pagerSize: 25
+  pagerSize: 20
 title: vegetablefj
 copyright: vegetablefj
 
