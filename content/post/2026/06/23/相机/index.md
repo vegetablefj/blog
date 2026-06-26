@@ -8,7 +8,7 @@ lastmod: 2026-06-23T20:19:06+08:00
 math: true
 mermaid: false
 
-cover: /blog/post/2026/06/23/相机/cover.png
+cover: /blog/post/2026/06/23/相机/cover.jpg
 
 
 
