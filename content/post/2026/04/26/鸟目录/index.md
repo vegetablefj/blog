@@ -3,7 +3,7 @@ title: vegetable_fj的鸟类笔记-目录
 description: 此间何以爱吾身。
 
 date: 2026-04-26T00:45:20+08:00
-lastmod: 2026-04-26T00:45:20+08:00
+lastmod: 2026-07-04
 
 math: true
 mermaid: false
@@ -38,5 +38,11 @@ tags:
 ### 生态与行为
 
 ## 鸟类的分类
+
+### 鸵鸟目
+
+#### 鸵鸟科
+
+- [鸵鸟属](/blog/post/2026/07/03/何意味)
 
 
