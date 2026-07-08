@@ -1,6 +1,6 @@
 ---
 title: 鸵鸟属
-description: 古颚下纲-鸵鸟目-鸵鸟科
+description: (古颚下纲-)鸵鸟目-鸵鸟科
 
 date: 2026-07-03T00:47:05+08:00
 lastmod: 2026-07-04
