@@ -3,7 +3,7 @@ title: 鸵鸟属
 description: (古颚下纲-)鸵鸟目-鸵鸟科
 
 date: 2026-07-03T00:47:05+08:00
-lastmod: 2026-07-04
+lastmod: 2026-07-20
 
 math: true
 mermaid: false
@@ -21,6 +21,8 @@ tags:
 # 鸵鸟属
 
 *封面为wiki上展示的额尔吉林鸟Ergilornis rapidus复原图*
+
+~~突然发现封面和标题放在一起很迷惑, 但是懒得改了~~
 
 这是鸟类分类相关的第一篇blog, 由于前面的知识相关太难抄了, 于是我们先来简单的开展一下分类.
 
