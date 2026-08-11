@@ -13,10 +13,10 @@ cover: /blog/post/2026/07/28/照片/39.jpg
 
 
 categories:
-  - 
+  - 生活记录
 tags:
-  -
-  -
+  - 鸟类
+  - 摄影
 ---
 # 近日照片
 
