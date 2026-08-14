@@ -123,10 +123,11 @@ tags:
         allowfullscreen="true">
 </iframe>
 
-下面俩哥们还没认出来, 之后再补上名.
+某种羽舟蛾.
 
 {{< figure src="/blog/post/2026/08/11/照片/42.jpg"   width="500px" >}}
 
+大概是松栎枯叶蛾.
 
 {{< figure src="/blog/post/2026/08/11/照片/43.jpg"   width="500px" >}}
 
