@@ -1,10 +1,10 @@
 ---
 title: 近日照片
-description: 怀柔. 大部分是虫. 多图预警.
+description: 怀柔. 大部分是风景和虫. 多图预警.
 keywords: 照片
 
 date: 2026-08-11T18:34:38+08:00
-lastmod: 2026-08-11T18:34:38+08:00
+lastmod: 2026-08-14
 
 math: true
 mermaid: false
@@ -22,9 +22,9 @@ tags:
 ---
 # 近日照片
 
-**本文含有大量图片, 所有图片总计约150MB**
+**本文含有大量图片, 所有图片总计约258MB**
 
-除了最前面的视频, 都是在怀柔拍的照片. 之后应该还会补充一些. 部分是相机拍摄, 部分是手机拍摄.
+除了最前面的视频, 都是在怀柔拍的照片. 部分是相机拍摄, 部分是手机拍摄.
 
 ## battle鹎闪击蜘蛛
 
@@ -39,7 +39,9 @@ tags:
         allowfullscreen="true">
 </iframe>
 
-## 雁栖湖周围杂七杂八风景
+## 杂七杂八风景
+
+这部分是开幕式当天跑出来拍的.
 
 {{< figure src="/blog/post/2026/08/11/照片/1.jpg"   width="500px" >}}
 {{< figure src="/blog/post/2026/08/11/照片/2.jpg"   width="500px" >}}
@@ -50,6 +52,30 @@ tags:
 {{< figure src="/blog/post/2026/08/11/照片/7.jpg"   width="500px" >}}
 {{< figure src="/blog/post/2026/08/11/照片/8.jpg"   width="500px" >}}
 {{< figure src="/blog/post/2026/08/11/照片/9.jpg"   width="500px" >}}
+
+这些是在松秀园拍的. 这地方还挺不错,就是这么大的湿地居然没什么鸟. 一共就看到一只白鹭.
+
+不知道是什么原因, 画质有点奇怪. 不知道是相机性能还是卡的问题(卡还能有区别吗?).
+
+{{< figure src="/blog/post/2026/08/11/照片/26.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/27.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/28.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/29.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/30.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/31.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/32.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/33.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/34.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/35.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/36.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/37.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/38.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/39.jpg"   width="500px" >}}
+
+这两张是集贤2号楼天台拍的. 太暗了效果不好. 也没见着流星.
+
+{{< figure src="/blog/post/2026/08/11/照片/40.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/41.jpg"   width="500px" >}}
 
 ## 各种昆虫
 
@@ -96,6 +122,17 @@ tags:
         frameborder="0"
         allowfullscreen="true">
 </iframe>
+
+下面俩哥们还没认出来, 之后再补上名.
+
+{{< figure src="/blog/post/2026/08/11/照片/42.jpg"   width="500px" >}}
+
+
+{{< figure src="/blog/post/2026/08/11/照片/43.jpg"   width="500px" >}}
+
+可爱马陆.
+
+{{< figure src="/blog/post/2026/08/11/照片/44.jpg"   width="500px" >}}
 
 ## 其他
 
