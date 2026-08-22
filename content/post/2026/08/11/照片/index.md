@@ -22,7 +22,7 @@ tags:
 ---
 # 近日照片
 
-**本文含有大量图片, 所有图片总计约258MB**
+**本文含有大量图片, 所有图片总计约300MB**
 
 除了最前面的视频, 都是在怀柔拍的照片. 部分是相机拍摄, 部分是手机拍摄.
 
@@ -33,6 +33,17 @@ tags:
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117034922809361&bvid=BV1fbuF6RE9d&cid=40576812151&p=1"
         width="300"
         height="500"
+        style="display:block; margin:0 auto;"
+        scrolling="no"
+        frameborder="0"
+        allowfullscreen="true">
+</iframe>
+
+## 黑卷尾嗦蝉
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117104447590686&bvid=BV1KVb96NE5k&cid=40963213909&p=1"
+        width="600"
+        height="400"
         style="display:block; margin:0 auto;"
         scrolling="no"
         frameborder="0"
@@ -77,6 +88,8 @@ tags:
 {{< figure src="/blog/post/2026/08/11/照片/40.jpg"   width="500px" >}}
 {{< figure src="/blog/post/2026/08/11/照片/41.jpg"   width="500px" >}}
 
+{{< figure src="/blog/post/2026/08/11/照片/52.jpg"   width="500px" >}}
+
 ## 各种昆虫
 
 某种环蛱蝶. 大概是小环蛱蝶. 好萌.
@@ -90,8 +103,8 @@ tags:
 
 超萌的快要化蛹的箩纹蛾幼虫.
 
-{{< figure src="/blog/post/2026/08/11/照片/12.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/12.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/23.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/25.jpg"   width="500px" >}}
 
 西内了的蝉.
 
@@ -134,6 +147,23 @@ tags:
 可爱马陆.
 
 {{< figure src="/blog/post/2026/08/11/照片/44.jpg"   width="500px" >}}
+
+一些个懒得识别的东西, 有一个应该是某种卵囊之类的东西
+
+{{< figure src="/blog/post/2026/08/11/照片/45.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/46.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/47.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/48.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/49.jpg"   width="500px" >}}
+{{< figure src="/blog/post/2026/08/11/照片/50.jpg"   width="500px" >}}
+
+台湾卷叶野螟
+
+{{< figure src="/blog/post/2026/08/11/照片/51.jpg"   width="500px" >}}
+
+三斑蕊夜蛾
+
+{{< figure src="/blog/post/2026/08/11/照片/53.jpg"   width="500px" >}}
 
 ## 其他
 
