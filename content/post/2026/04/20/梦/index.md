@@ -3,7 +3,7 @@ title: 梦
 description: 梦里不知身是客，一晌贪欢。
 
 date: 2026-04-20T22:31:09+08:00
-lastmod: 2026-08-31
+lastmod: 2026-09-05
 math: true
 mermaid: false
 
