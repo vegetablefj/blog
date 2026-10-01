@@ -12,6 +12,8 @@ tags:
 
 # 测试2
 
+*本文完全由以 GPT 为主的 AI 生成；博主提出需求并提供图片。*
+
 以下两张照片直接引用《近日照片》中的原图。页面显示经 Hugo 生成的较小 WebP 图片；点击照片可查看原始 JPG。照片仍按普通文章的方式纵向排列。
 
 {{< photo page="/post/2026/09/30/近日照片" src="1.jpg" alt="近日照片中的第一张照片" width="500" >}}
@@ -20,7 +22,7 @@ tags:
 
 ## 本次功能修改
 
-本次修改由 GPT-6 Sol 完成：导航栏新增“随机文章”，每次点击会从已发布文章中随机选取一篇；新增可复用的图片缩略图组件，文章先加载较小的 WebP 图片，点击后打开原始 JPG。将来独立的照片墙也可以调用同一个组件。
+本次修改由 GPT-6 Sol 完成：最初在导航栏新增“随机文章”，每次点击会从已发布文章中随机选取一篇；新增可复用的图片缩略图组件，文章先加载较小的 WebP 图片，点击后打开原始 JPG。后来的独立照片墙也复用了同一个组件。
 
 代码主要涉及 `config/_default/params.yml`、`i18n/zh-CN.yml`、`content/random.md`、`layouts/_default/random.html`，以及 `layouts/partials/media/thumbnail.html` 和 `layouts/shortcodes/photo.html`。这篇测试文章直接使用《近日照片》的两张原图，没有另存一份。
 

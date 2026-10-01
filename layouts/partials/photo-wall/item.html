@@ -1,0 +1,10 @@
+<div class="photo-wall-item">
+  <div class="photo-wall-item-content">
+    {{ partial "media/thumbnail.html" (dict
+      "Page" .Page
+      "Src" .Src
+      "Alt" .Alt
+      "ThumbWidth" 720
+    ) }}
+  </div>
+</div>

@@ -33,11 +33,16 @@ hugo --minify
 ## 本项目进行的修改
 
 - 随机文章：用 [`hugo.yaml`](hugo.yaml) 中配置的侧栏模块替换“最新文章”；模块模板为 [`layouts/partials/widget/random_post.html`](layouts/partials/widget/random_post.html)，文字见 [`i18n/zh-CN.yml`](i18n/zh-CN.yml)。点击模块中的“试试手气”后，[`content/random.md`](content/random.md) 与 [`layouts/_default/random.html`](layouts/_default/random.html) 会从已发布文章中随机跳转。
-- 图片缩略图：[`layouts/partials/media/thumbnail.html`](layouts/partials/media/thumbnail.html) 从文章图片生成较小的 WebP 缩略图，延迟加载，点击后仍可查看原图；[`layouts/shortcodes/photo.html`](layouts/shortcodes/photo.html) 提供文章内调用方式，也可复用于将来的照片墙。用法与效果见[《测试2》](content/post/2026/10/01/测试2/index.md)。现有普通图片写法不受影响，只有使用该短代码的图片会生成缩略图。
+- 图片缩略图：[`layouts/partials/media/thumbnail.html`](layouts/partials/media/thumbnail.html) 从文章图片生成较小的 WebP 缩略图，延迟加载，点击后仍可查看原图；[`layouts/shortcodes/photo.html`](layouts/shortcodes/photo.html) 提供文章内调用方式，照片墙也复用这一组件。用法与效果见[《测试2》](content/post/2026/10/01/测试2/index.md)。现有普通图片写法不受影响，只有使用该短代码的图片会生成缩略图。
+- 照片墙：[页面](https://vegetablefj.github.io/blog/photo-wall/)从带“摄影”标签的文章正文提取本地图片，保留文章中的顺序；使用 [Masonry](https://masonry.desandro.com/) 排列，首批 32 张，滚动时再加载后续批次。实现位于 `layouts/photo-wall/section.html`、`assets/js/photo-wall.js` 与 `assets/css/photo-wall.css`；构建过程见[《照片墙》](content/post/2026/10/01/照片墙/index.md)。
+
+在博主提出需求并提供素材的基础上，以 GPT 为主的 AI 参与了本站部分文章、代码与文档的编写；《测试2》和《照片墙》两篇功能说明文章完全由 AI 生成。
 
 ## 致谢
 
 感谢 [D-Sketon](https://github.com/D-Sketon) 开发并持续维护 Reimu 主题，为这个博客提供了美观而完善的界面与功能。
+感谢 [David DeSandro](https://github.com/desandro/masonry) 开发 Masonry，为照片墙提供错落的图片排列；Masonry 使用 MIT 许可证。
 
 - [Hugo](https://gohugo.io/)
 - [hugo-theme-reimu](https://github.com/D-Sketon/hugo-theme-reimu)
+- [Masonry](https://masonry.desandro.com/)
