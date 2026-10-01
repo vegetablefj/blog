@@ -14,7 +14,7 @@
         {{ $srcAttr = findRE `(?i)\ssrc\s*=\s*("[^"]+"|'[^']+'|[^\s>]+)` $imageTag 1 }}
       {{ end }}
       {{ with $srcAttr }}
-        {{ $src := replaceRE `(?i)^\s*(?:data-photo-wall-)?src\s*=\s*["']?|["']$` "" (strings.TrimSpace (index . 0)) }}
+        {{ $src := replaceRE `(?i)^\s*(?:data-photo-wall-)?src\s*=\s*["']?|["']$` "" (index . 0) }}
         {{ $src = index (split (index (split $src "?") 0) "#") 0 }}
         {{ $image := $post.Resources.GetMatch (path.Clean $src) }}
         {{ if not $image }}{{ $image = $post.Resources.GetMatch (path.Base $src) }}{{ end }}
@@ -25,7 +25,7 @@
               {{ $seen = $seen | append $image.RelPermalink }}
               {{ $alt := printf "%s · %s" $post.Title $image.Name }}
               {{ with findRE `(?i)\salt\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)` $imageTag 1 }}
-                {{ $imageAlt := replaceRE `(?i)^\s*alt\s*=\s*["']?|["']$` "" (strings.TrimSpace (index . 0)) }}
+                {{ $imageAlt := replaceRE `(?i)^\s*alt\s*=\s*["']?|["']$` "" (index . 0) }}
                 {{ if $imageAlt }}{{ $alt = $imageAlt }}{{ end }}
               {{ end }}
               {{ $photos = $photos | append (dict "Page" $post "Src" $image.Name "Alt" $alt) }}
