@@ -14,9 +14,6 @@ menu:
   - name: about
     url: "about"
     icon:
-  - name: random
-    url: "random/"
-    icon:
   - name: friend
     url: "friend"
     icon:
@@ -90,9 +87,6 @@ social:
   # steam: https://steamcommunity.com/id/yourname
 
 
-
-# Widget behavior
-recent_posts_limits: 5
 
 ########################################
 # CSS

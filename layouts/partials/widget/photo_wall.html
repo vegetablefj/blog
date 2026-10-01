@@ -1,0 +1,12 @@
+{{ with site.GetPage "/photo-wall" }}
+  <div class="widget-wrapper">
+    <div class="widget-wrap" data-aos="{{ site.Params.animation.options.home.widget }}">
+      <h3 class="widget-title">照片墙</h3>
+      <div class="widget">
+        <ul>
+          <li><a href="{{ .RelPermalink }}">让我看看</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+{{ end }}

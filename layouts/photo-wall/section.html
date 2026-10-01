@@ -2,37 +2,70 @@
   {{ $css := resources.Get "css/photo-wall.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />
 
-  <section class="photo-wall-panel" aria-label="照片墙">
-    <div class="photo-wall-intro">
-      <p>先放上一组照片，按原文顺序排列。点击照片可查看原图。</p>
-      {{ range .Params.sources }}
-        {{ $sourcePage := site.GetPage .page }}
-        {{ if not $sourcePage }}{{ errorf "photo-wall: source page %q not found" .page }}{{ end }}
-        <a class="photo-wall-source" href="{{ $sourcePage.RelPermalink }}">来自《{{ $sourcePage.Title }}》</a>
+  {{ $photos := slice }}
+  {{ $tagPage := site.GetPage "/tags/摄影" }}
+  {{ if not $tagPage }}{{ errorf "photo-wall: 摄影 tag not found" }}{{ end }}
+  {{ range $post := $tagPage.Pages.ByDate.Reverse }}
+    {{ $seen := slice }}
+    {{ range findRE `(?is)<img\b[^>]*>` (string $post.Content) }}
+      {{ $imageTag := . }}
+      {{ $srcAttr := findRE `(?i)\sdata-photo-wall-src\s*=\s*("[^"]+"|'[^']+'|[^\s>]+)` $imageTag 1 }}
+      {{ if not $srcAttr }}
+        {{ $srcAttr = findRE `(?i)\ssrc\s*=\s*("[^"]+"|'[^']+'|[^\s>]+)` $imageTag 1 }}
       {{ end }}
-    </div>
-
-    <div class="article-entry photo-wall-grid" id="photo-wall-grid">
-      {{ range $source := .Params.sources }}
-        {{ $sourcePage := site.GetPage $source.page }}
-        {{ if not $sourcePage }}{{ errorf "photo-wall: source page %q not found" $source.page }}{{ end }}
-        {{ range $photo := $source.images }}
-          <div class="photo-wall-item">
-            <div class="photo-wall-item-content">
-              {{ partial "media/thumbnail.html" (dict
-                "Page" $sourcePage
-                "Src" $photo.src
-                "Alt" $photo.alt
-                "ThumbWidth" 960
-              ) }}
-            </div>
-          </div>
+      {{ with $srcAttr }}
+        {{ $src := replaceRE `(?i)^\s*(?:data-photo-wall-)?src\s*=\s*["']?|["']$` "" (strings.TrimSpace (index . 0)) }}
+        {{ $src = index (split (index (split $src "?") 0) "#") 0 }}
+        {{ $image := $post.Resources.GetMatch (path.Clean $src) }}
+        {{ if not $image }}{{ $image = $post.Resources.GetMatch (path.Base $src) }}{{ end }}
+        {{ with $image }}
+          {{ $image := . }}
+          {{ if or (eq (lower $src) (lower $image.RelPermalink)) (eq (lower $src) (lower $image.Permalink)) (eq (lower (path.Clean $src)) (lower $image.Name)) }}
+            {{ if not (in $seen $image.RelPermalink) }}
+              {{ $seen = $seen | append $image.RelPermalink }}
+              {{ $alt := printf "%s · %s" $post.Title $image.Name }}
+              {{ with findRE `(?i)\salt\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)` $imageTag 1 }}
+                {{ $imageAlt := replaceRE `(?i)^\s*alt\s*=\s*["']?|["']$` "" (strings.TrimSpace (index . 0)) }}
+                {{ if $imageAlt }}{{ $alt = $imageAlt }}{{ end }}
+              {{ end }}
+              {{ $photos = $photos | append (dict "Page" $post "Src" $image.Name "Alt" $alt) }}
+            {{ end }}
+          {{ end }}
         {{ end }}
       {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{ $batchSize := 32 }}
+  {{ $batchURLs := slice }}
+  {{ $chunk := "" }}
+  {{ range $index, $photo := $photos }}
+    {{ if ge $index $batchSize }}
+      {{ $chunk = printf "%s%s" $chunk (partial "photo-wall/item.html" $photo) }}
+      {{ if or (eq (mod (add $index 1) $batchSize) 0) (eq (add $index 1) (len $photos)) }}
+        {{ $batchNumber := add (len $batchURLs) 2 }}
+        {{ $fragment := resources.FromString (printf "photo-wall/batch-%02d-%s.html" $batchNumber (md5 $chunk)) $chunk }}
+        {{ $batchURLs = $batchURLs | append $fragment.RelPermalink }}
+        {{ $chunk = "" }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  <section class="photo-wall-panel" aria-label="照片墙">
+    <div class="article-entry photo-wall-grid" id="photo-wall-grid" data-total="{{ len $photos }}">
+      <div class="photo-wall-sizer" aria-hidden="true"></div>
+      {{ range first $batchSize $photos }}
+        {{ partial "photo-wall/item.html" . }}
+      {{ end }}
     </div>
+    {{ if $batchURLs }}
+      <div id="photo-wall-sentinel" data-batches="{{ delimit $batchURLs "|" }}" aria-hidden="true"></div>
+      <button id="photo-wall-load-more" type="button" hidden>加载更多照片</button>
+      <noscript><a href="{{ $tagPage.RelPermalink }}">查看摄影文章</a></noscript>
+    {{ end }}
   </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
   {{ $js := resources.Get "js/photo-wall.js" | minify | fingerprint }}
   <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}

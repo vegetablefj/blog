@@ -12,7 +12,7 @@
   {{- $alt := .Alt | default $src -}}
   <figure{{ with .DisplayWidth }} style="max-width: {{ . }}px"{{ end }}>
     <a class="article-gallery-item" href="{{ $image.RelPermalink }}" data-pswp-width="{{ $image.Width }}" data-pswp-height="{{ $image.Height }}" target="_blank" rel="noopener">
-      <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+      <img src="{{ $thumb.RelPermalink }}" data-photo-wall-src="{{ $image.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="{{ $alt }}" loading="lazy" decoding="async">
     </a>
     {{ with .Caption }}<figcaption>{{ . }}</figcaption>{{ end }}
   </figure>

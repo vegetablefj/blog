@@ -66,7 +66,8 @@ params:
   - category
   - tag
   #- tagcloud
-  - recent_posts
+  - random_post
+  - photo_wall
   
   reimu_cursor:
     enable: true
