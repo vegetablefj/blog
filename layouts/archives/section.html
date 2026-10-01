@@ -1,0 +1,44 @@
+{{ define "main" }}
+  {{ $css := resources.Get "css/photo-wall.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />
+  <div
+    class="archives-outer-wrap"
+    data-aos="{{ .Site.Params.animation.options.archive.whole }}"
+  >
+    {{ with site.GetPage "/photo-wall" }}
+      <a class="archives-photo-wall-entry" href="{{ .RelPermalink }}">
+        <span class="archives-photo-wall-entry-text">
+          <strong>照片墙</strong>
+          <span>从文章里挑出一些照片，换一种方式慢慢看。</span>
+        </span>
+        <span class="archives-photo-wall-entry-arrow" aria-hidden="true">→</span>
+      </a>
+    {{ end }}
+    <div class="tag-wrap">
+      {{ range .Site.Taxonomies.tags }}
+        <div
+          class="archives-tag-list-item"
+          data-aos="{{ $.Site.Params.animation.options.archive.tag }}"
+        >
+          <a class="archives-tag-list-link" href="{{ .Page.RelPermalink }}"
+            >{{ .Page.Title }}</a
+          >
+        </div>
+      {{ end }}
+    </div>
+    <div class="category-wrap">
+      {{ range .Site.Taxonomies.categories }}
+        <div
+          class="archives-category-list-item"
+          data-aos="{{ $.Site.Params.animation.options.archive.category }}"
+        >
+          <a class="archives-category-list-link" href="{{ .Page.RelPermalink }}"
+            >{{ .Page.Title }}</a
+          >
+        </div>
+      {{ end }}
+    </div>
+    {{ .Render "list" }}
+  </div>
+  {{ partial "pagination.html" . }}
+{{ end }}

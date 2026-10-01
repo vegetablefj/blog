@@ -1,0 +1,38 @@
+{{ define "main" }}
+  {{ $css := resources.Get "css/photo-wall.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />
+
+  <section class="photo-wall-panel" aria-label="照片墙">
+    <div class="photo-wall-intro">
+      <p>先放上一组照片，按原文顺序排列。点击照片可查看原图。</p>
+      {{ range .Params.sources }}
+        {{ $sourcePage := site.GetPage .page }}
+        {{ if not $sourcePage }}{{ errorf "photo-wall: source page %q not found" .page }}{{ end }}
+        <a class="photo-wall-source" href="{{ $sourcePage.RelPermalink }}">来自《{{ $sourcePage.Title }}》</a>
+      {{ end }}
+    </div>
+
+    <div class="article-entry photo-wall-grid" id="photo-wall-grid">
+      {{ range $source := .Params.sources }}
+        {{ $sourcePage := site.GetPage $source.page }}
+        {{ if not $sourcePage }}{{ errorf "photo-wall: source page %q not found" $source.page }}{{ end }}
+        {{ range $photo := $source.images }}
+          <div class="photo-wall-item">
+            <div class="photo-wall-item-content">
+              {{ partial "media/thumbnail.html" (dict
+                "Page" $sourcePage
+                "Src" $photo.src
+                "Alt" $photo.alt
+                "ThumbWidth" 960
+              ) }}
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+  {{ $js := resources.Get "js/photo-wall.js" | minify | fingerprint }}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+{{ end }}
