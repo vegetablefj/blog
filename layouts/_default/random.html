@@ -1,0 +1,26 @@
+{{ define "main" }}
+  {{ $posts := where .Site.RegularPages "Section" "post" }}
+  {{ $urls := slice }}
+  {{ range $posts }}
+    {{ $urls = $urls | append .RelPermalink }}
+  {{ end }}
+  <article class="h-entry article">
+    <div class="article-inner">
+      <div class="e-content article-entry">
+        <p>正在随机选择一篇文章……</p>
+        {{ with index $posts 0 }}
+          <p>如果没有自动跳转，可以<a href="{{ .RelPermalink }}">从这里开始阅读</a>。</p>
+        {{ end }}
+      </div>
+    </div>
+  </article>
+  <script>
+    (() => {
+      const urls = {{ $urls | jsonify | safeJS }};
+      if (!urls.length) return;
+      const choices = urls.filter((url) => url !== window.location.pathname);
+      const candidates = choices.length ? choices : urls;
+      window.location.replace(candidates[Math.floor(Math.random() * candidates.length)]);
+    })();
+  </script>
+{{ end }}

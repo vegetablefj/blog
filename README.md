@@ -30,6 +30,11 @@ hugo --minify
 - `hugo.yaml`：Hugo 主配置
 - `themes/hugo-theme-reimu/`：Reimu 主题文件
 
+## 本项目进行的修改
+
+- 随机文章：在导航栏添加入口，通过 [`content/random.md`](content/random.md) 和 [`layouts/_default/random.html`](layouts/_default/random.html) 从已发布文章中随机跳转；入口与文字分别配置在 [`config/_default/params.yml`](config/_default/params.yml) 和 [`i18n/zh-CN.yml`](i18n/zh-CN.yml)。
+- 图片缩略图：[`layouts/partials/media/thumbnail.html`](layouts/partials/media/thumbnail.html) 从文章图片生成较小的 WebP 缩略图，延迟加载，点击后仍可查看原图；[`layouts/shortcodes/photo.html`](layouts/shortcodes/photo.html) 提供文章内调用方式，也可复用于将来的照片墙。用法与效果见[《测试2》](content/post/2026/10/01/测试2/index.md)。现有普通图片写法不受影响，只有使用该短代码的图片会生成缩略图。
+
 ## 致谢
 
 感谢 [D-Sketon](https://github.com/D-Sketon) 开发并持续维护 Reimu 主题，为这个博客提供了美观而完善的界面与功能。

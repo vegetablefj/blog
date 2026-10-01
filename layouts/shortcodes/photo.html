@@ -1,0 +1,15 @@
+{{- $sourcePage := .Page -}}
+{{- with .Get "page" -}}
+  {{- $sourcePage = site.GetPage . -}}
+  {{- if not $sourcePage -}}
+    {{- errorf "photo: page %q not found" . -}}
+  {{- end -}}
+{{- end -}}
+{{- partial "media/thumbnail.html" (dict
+  "Page" $sourcePage
+  "Src" (.Get "src")
+  "Alt" (.Get "alt")
+  "Caption" (.Get "caption")
+  "DisplayWidth" (.Get "width" | default 500)
+  "ThumbWidth" (.Get "thumb_width" | default 960)
+) -}}

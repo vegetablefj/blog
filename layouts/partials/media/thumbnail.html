@@ -1,0 +1,19 @@
+{{- $page := .Page -}}
+{{- $src := .Src -}}
+{{- $image := $page.Resources.GetMatch $src -}}
+{{- if not $image -}}
+  {{- errorf "thumbnail: %q not found in page bundle %q" $src $page.File.Path -}}
+{{- else -}}
+  {{- $thumbWidth := int (.ThumbWidth | default 960) -}}
+  {{- $thumb := $image -}}
+  {{- if gt $image.Width $thumbWidth -}}
+    {{- $thumb = $image.Resize (printf "%dx webp q80" $thumbWidth) -}}
+  {{- end -}}
+  {{- $alt := .Alt | default $src -}}
+  <figure{{ with .DisplayWidth }} style="max-width: {{ . }}px"{{ end }}>
+    <a class="article-gallery-item" href="{{ $image.RelPermalink }}" data-pswp-width="{{ $image.Width }}" data-pswp-height="{{ $image.Height }}" target="_blank" rel="noopener">
+      <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+    </a>
+    {{ with .Caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+  </figure>
+{{- end -}}

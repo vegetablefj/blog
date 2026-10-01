@@ -14,6 +14,9 @@ menu:
   - name: about
     url: "about"
     icon:
+  - name: random
+    url: "random/"
+    icon:
   - name: friend
     url: "friend"
     icon:
