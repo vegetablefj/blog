@@ -1,4 +1,5 @@
 baseURL: https://vegetablefj.github.io/blog/
+timeout: 5m
 locale: en-us
 theme: hugo-theme-reimu
 pagination:  

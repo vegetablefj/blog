@@ -34,7 +34,7 @@ hugo --minify
 
 - 随机文章：用 [`hugo.yaml`](hugo.yaml) 中配置的侧栏模块替换“最新文章”；模块模板为 [`layouts/partials/widget/random_post.html`](layouts/partials/widget/random_post.html)，文字见 [`i18n/zh-CN.yml`](i18n/zh-CN.yml)。点击模块中的“试试手气”后，[`content/random.md`](content/random.md) 与 [`layouts/_default/random.html`](layouts/_default/random.html) 会从已发布文章中随机跳转。
 - 图片缩略图：[`layouts/partials/media/thumbnail.html`](layouts/partials/media/thumbnail.html) 从文章图片生成较小的 WebP 缩略图，延迟加载，点击后仍可查看原图；[`layouts/shortcodes/photo.html`](layouts/shortcodes/photo.html) 提供文章内调用方式，照片墙也复用这一组件。原有五篇带“摄影”标签的文章已改用 `photo`，保留各自的显示宽度和原图链接。用法与效果见[《测试2》](content/post/2026/10/01/测试2/index.md)。其他普通图片写法不受影响。
-- 缩略图构建缓存：[部署工作流](.github/workflows/deploy.yaml) 在 GitHub Actions 构建前恢复、构建后保存 `resources/_gen/images`，让未变化的图片复用已生成的缩略图。缓存只用于减少重复处理时间，不压缩原图，也不减小最终部署包。
+- 缩略图构建缓存：[部署工作流](.github/workflows/deploy.yaml) 在 GitHub Actions 构建前恢复、构建后保存 `resources/_gen/images`，让未变化的图片复用已生成的缩略图。首次处理大量图片可能超过 Hugo 默认的模板超时，因此在 [`hugo.yaml`](hugo.yaml) 中将超时设为 5 分钟。缓存和超时调整都不压缩原图，也不减小最终部署包。
 - 照片墙：[页面](https://vegetablefj.github.io/blog/photo-wall/)从带“摄影”标签的文章正文提取本地图片，保留文章中的顺序；使用 [Masonry](https://masonry.desandro.com/) 排列，首批 32 张，滚动时再加载后续批次。实现位于 `layouts/photo-wall/section.html`、`assets/js/photo-wall.js` 与 `assets/css/photo-wall.css`；构建过程见[《照片墙》](content/post/2026/10/01/照片墙/index.md)。
 
 在博主提出需求并提供素材的基础上，以 GPT 为主的 AI 参与了本站部分文章、代码与文档的编写；《测试2》和《照片墙》两篇功能说明文章完全由 AI 生成。
