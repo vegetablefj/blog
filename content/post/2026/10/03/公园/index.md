@@ -113,6 +113,7 @@ cover: /blog/post/2026/10/03/公园/118.jpg
 一开始以为这边会特别多, 看起来并没有那么多.
 
 {{< photo src="119.jpg" width="500" >}}
+{{< photo src="121.jpg" width="500" >}}
 
 ## 绒啄木鸟 Downy Woodpecker
 
@@ -210,8 +211,6 @@ cover: /blog/post/2026/10/03/公园/118.jpg
 {{< photo src="45.jpg" width="500" >}}
 {{< photo src="46.jpg" width="500" >}}
 {{< photo src="47.jpg" width="500" >}}
-{{< photo src="48.jpg" width="500" >}}
-{{< photo src="49.jpg" width="500" >}}
 {{< photo src="50.jpg" width="500" >}}
 {{< photo src="55.jpg" width="500" >}}
 {{< photo src="56.jpg" width="500" >}}
@@ -232,7 +231,6 @@ cover: /blog/post/2026/10/03/公园/118.jpg
 {{< photo src="89.jpg" width="500" >}}
 {{< photo src="90.jpg" width="500" >}}
 {{< photo src="113.jpg" width="500" >}}
-{{< photo src="121.jpg" width="500" >}}
 
 ## 动物园里的嘟嘟哒造景
 
@@ -243,6 +241,8 @@ cover: /blog/post/2026/10/03/公园/118.jpg
 {{< photo src="35.jpg" width="500" >}}
 {{< photo src="36.jpg" width="500" >}}
 {{< photo src="44.jpg" width="500" >}}
+{{< photo src="48.jpg" width="500" >}}
+{{< photo src="49.jpg" width="500" >}}
 {{< photo src="111.jpg" width="500" >}}
 {{< photo src="112.jpg" width="500" >}}
 
