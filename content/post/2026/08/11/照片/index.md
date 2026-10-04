@@ -54,78 +54,78 @@ tags:
 
 这部分是开幕式当天跑出来拍的.
 
-{{< figure src="/blog/post/2026/08/11/照片/1.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/2.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/3.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/4.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/5.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/6.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/7.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/8.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/9.jpg"   width="500px" >}}
+{{< photo src="1.jpg" width="500" >}}
+{{< photo src="2.jpg" width="500" >}}
+{{< photo src="3.jpg" width="500" >}}
+{{< photo src="4.jpg" width="500" >}}
+{{< photo src="5.jpg" width="500" >}}
+{{< photo src="6.jpg" width="500" >}}
+{{< photo src="7.jpg" width="500" >}}
+{{< photo src="8.jpg" width="500" >}}
+{{< photo src="9.jpg" width="500" >}}
 
 这些是在松秀园拍的. 这地方还挺不错,就是这么大的湿地居然没什么鸟. 一共就看到一只白鹭.
 
 不知道是什么原因, 画质有点奇怪. 不知道是相机性能还是卡的问题(卡还能有区别吗?).
 
-{{< figure src="/blog/post/2026/08/11/照片/26.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/27.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/28.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/29.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/30.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/31.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/32.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/33.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/34.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/35.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/36.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/37.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/38.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/39.jpg"   width="500px" >}}
+{{< photo src="26.jpg" width="500" >}}
+{{< photo src="27.jpg" width="500" >}}
+{{< photo src="28.jpg" width="500" >}}
+{{< photo src="29.jpg" width="500" >}}
+{{< photo src="30.jpg" width="500" >}}
+{{< photo src="31.jpg" width="500" >}}
+{{< photo src="32.jpg" width="500" >}}
+{{< photo src="33.jpg" width="500" >}}
+{{< photo src="34.jpg" width="500" >}}
+{{< photo src="35.jpg" width="500" >}}
+{{< photo src="36.jpg" width="500" >}}
+{{< photo src="37.jpg" width="500" >}}
+{{< photo src="38.jpg" width="500" >}}
+{{< photo src="39.jpg" width="500" >}}
 
 这两张是集贤2号楼天台拍的. 太暗了效果不好. 也没见着流星.
 
-{{< figure src="/blog/post/2026/08/11/照片/40.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/41.jpg"   width="500px" >}}
+{{< photo src="40.jpg" width="500" >}}
+{{< photo src="41.jpg" width="500" >}}
 
-{{< figure src="/blog/post/2026/08/11/照片/52.jpg"   width="500px" >}}
+{{< photo src="52.jpg" width="500" >}}
 
 ## 各种昆虫
 
 某种环蛱蝶. 大概是小环蛱蝶. 好萌.
 
-{{< figure src="/blog/post/2026/08/11/照片/10.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/11.jpg"   width="500px" >}}
+{{< photo src="10.jpg" width="500" >}}
+{{< photo src="11.jpg" width="500" >}}
 
 应该是条蜂缘蝽.
 
-{{< figure src="/blog/post/2026/08/11/照片/12.jpg"   width="500px" >}}
+{{< photo src="12.jpg" width="500" >}}
 
 超萌的快要化蛹的箩纹蛾幼虫.
 
-{{< figure src="/blog/post/2026/08/11/照片/23.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/25.jpg"   width="500px" >}}
+{{< photo src="23.jpg" width="500" >}}
+{{< photo src="25.jpg" width="500" >}}
 
 西内了的蝉.
 
-{{< figure src="/blog/post/2026/08/11/照片/13.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/24.jpg"   width="300px" >}}
+{{< photo src="13.jpg" width="500" >}}
+{{< photo src="24.jpg" width="300" >}}
 
 大概是"棺材头"多伊棺头蟋?
 
-{{< figure src="/blog/post/2026/08/11/照片/14.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/15.jpg"   width="500px" >}}
+{{< photo src="14.jpg" width="500" >}}
+{{< photo src="15.jpg" width="500" >}}
 
 丝带凤蝶.
 
-{{< figure src="/blog/post/2026/08/11/照片/22.jpg"   width="500px" >}}
+{{< photo src="22.jpg" width="500" >}}
 
 大腹圆珠和蝉.
 
-{{< figure src="/blog/post/2026/08/11/照片/18.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/19.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/20.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/21.jpg"   width="500px" >}}
+{{< photo src="18.jpg" width="500" >}}
+{{< photo src="19.jpg" width="500" >}}
+{{< photo src="20.jpg" width="500" >}}
+{{< photo src="21.jpg" width="500" >}}
 
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117076597543973&bvid=BV17xuz6wEWP&cid=40813135898&p=1"
         width="600"
@@ -138,36 +138,36 @@ tags:
 
 某种羽舟蛾.
 
-{{< figure src="/blog/post/2026/08/11/照片/42.jpg"   width="500px" >}}
+{{< photo src="42.jpg" width="500" >}}
 
 大概是松栎枯叶蛾.
 
-{{< figure src="/blog/post/2026/08/11/照片/43.jpg"   width="500px" >}}
+{{< photo src="43.jpg" width="500" >}}
 
 可爱马陆.
 
-{{< figure src="/blog/post/2026/08/11/照片/44.jpg"   width="500px" >}}
+{{< photo src="44.jpg" width="500" >}}
 
 一些个懒得识别的东西, 有一个应该是某种卵囊之类的东西
 
-{{< figure src="/blog/post/2026/08/11/照片/45.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/46.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/47.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/48.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/49.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/50.jpg"   width="500px" >}}
+{{< photo src="45.jpg" width="500" >}}
+{{< photo src="46.jpg" width="500" >}}
+{{< photo src="47.jpg" width="500" >}}
+{{< photo src="48.jpg" width="500" >}}
+{{< photo src="49.jpg" width="500" >}}
+{{< photo src="50.jpg" width="500" >}}
 
 台湾卷叶野螟
 
-{{< figure src="/blog/post/2026/08/11/照片/51.jpg"   width="500px" >}}
+{{< photo src="51.jpg" width="500" >}}
 
 三斑蕊夜蛾
 
-{{< figure src="/blog/post/2026/08/11/照片/53.jpg"   width="500px" >}}
+{{< photo src="53.jpg" width="500" >}}
 
 ## 其他
 
 集贤山庄的大狗叫.
 
-{{< figure src="/blog/post/2026/08/11/照片/16.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/08/11/照片/17.jpg"   width="500px" >}}
+{{< photo src="16.jpg" width="500" >}}
+{{< photo src="17.jpg" width="500" >}}

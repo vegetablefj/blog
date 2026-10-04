@@ -36,20 +36,20 @@ tags:
 
 这些哥们我就不写谁是谁了, 反正都认识.
 
-{{< figure src="/blog/post/2026/06/23/相机/1.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/06/23/相机/2.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/06/23/相机/3.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/06/23/相机/4.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/06/23/相机/5.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/06/23/相机/6.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/06/23/相机/7.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/06/23/相机/8.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/06/23/相机/9.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/06/23/相机/10.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/06/23/相机/11.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/06/23/相机/12.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/06/23/相机/13.jpg"   width="500px" >}}
-{{< figure src="/blog/post/2026/06/23/相机/14.jpg"   width="500px" >}}
+{{< photo src="1.jpg" width="500" >}}
+{{< photo src="2.jpg" width="500" >}}
+{{< photo src="3.jpg" width="500" >}}
+{{< photo src="4.jpg" width="500" >}}
+{{< photo src="5.jpg" width="500" >}}
+{{< photo src="6.jpg" width="500" >}}
+{{< photo src="7.jpg" width="500" >}}
+{{< photo src="8.jpg" width="500" >}}
+{{< photo src="9.jpg" width="500" >}}
+{{< photo src="10.jpg" width="500" >}}
+{{< photo src="11.jpg" width="500" >}}
+{{< photo src="12.jpg" width="500" >}}
+{{< photo src="13.jpg" width="500" >}}
+{{< photo src="14.jpg" width="500" >}}
 
 以及这个视频. 非常搞笑.
 

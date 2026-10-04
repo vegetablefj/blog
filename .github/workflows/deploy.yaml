@@ -46,12 +46,28 @@ jobs:
             npm ci
           fi
 
+      - name: Restore Hugo image cache
+        id: hugo-image-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: resources/_gen/images
+          key: hugo-images-${{ runner.os }}-${{ env.HUGO_VERSION }}-${{ github.sha }}
+          restore-keys: |
+            hugo-images-${{ runner.os }}-${{ env.HUGO_VERSION }}-
+
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
           HUGO_BASEURL: ${{ steps.pages.outputs.base_url }}/
         run: hugo --minify --baseURL "$HUGO_BASEURL"
+
+      - name: Save Hugo image cache
+        if: steps.hugo-image-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: resources/_gen/images
+          key: ${{ steps.hugo-image-cache.outputs.cache-primary-key }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
