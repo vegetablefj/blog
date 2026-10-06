@@ -29,7 +29,16 @@
 
 {{ partial "helpers/ts.html" (dict "source" "js/pjax_main.ts" "pjax" true "ctx" .) }}
 
-{{ if $params.algolia_search.enable }}
+{{ if $params.local_search.enable }}
+  <script>
+    window.LOCAL_SEARCH_CONFIG = {
+      indexURL: {{ "search.json" | relURL | jsonify | safeJS }},
+      perPage: {{ $params.local_search.hits.per_page }},
+      labels: {{ $params.local_search.labels | jsonify | safeJS }}
+    };
+  </script>
+  {{ partial "helpers/ts.html" (dict "source" "js/local_search.js" "ctx" .) }}
+{{ else if $params.algolia_search.enable }}
   <script>
     var ALGOLIA_CONFIG = {
       logo: '{{ "images/algolia_logo.svg" | relURL }}',

@@ -221,7 +221,7 @@ body {
 @import "partials/top";
 {{ end }}
 
-{{ if $params.algolia_search.enable }}
+{{ if or $params.local_search.enable $params.algolia_search.enable }}
 @import "partials/search";
 {{ end }}
 

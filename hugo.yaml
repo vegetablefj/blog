@@ -15,6 +15,7 @@ outputs:
   home:
     - HTML
     - RSS
+    - Search
   page:
     - HTML
     - RSS
@@ -28,6 +29,11 @@ outputFormats:
     isPlainText: true
   Algolia:
     baseName: algolia
+    isPlainText: true
+    mediaType: "application/json"
+    notAlternative: true
+  Search:
+    baseName: search
     isPlainText: true
     mediaType: "application/json"
     notAlternative: true

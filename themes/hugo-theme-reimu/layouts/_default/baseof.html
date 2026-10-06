@@ -65,12 +65,16 @@
       </div>
       {{ partial "mobilebar.html" . }}
     </div>
-    {{ if .Site.Params.algolia_search.enable }}
+    {{ if or .Site.Params.local_search.enable .Site.Params.algolia_search.enable }}
       <div class="site-search">
-        <div class="reimu-popup popup">
+        <div class="reimu-popup popup" role="dialog" aria-label="{{ i18n "search" }}" aria-modal="true">
           <div class="reimu-search">
             <div class="reimu-search-input-icon"></div>
-            <div class="reimu-search-input" id="reimu-search-input"></div>
+            <div class="reimu-search-input" id="reimu-search-input">
+              {{ if .Site.Params.local_search.enable }}
+                <input type="search" aria-label="{{ i18n "search" }}" placeholder="{{ .Site.Params.local_search.labels.input_placeholder }}" autocomplete="off" />
+              {{ end }}
+            </div>
             <div class="popup-btn-close"></div>
           </div>
           <div class="reimu-results">

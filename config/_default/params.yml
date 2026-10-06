@@ -268,6 +268,18 @@ algolia_search:
     hits_empty: "未发现与 「${query}」相关内容"
     hits_stats: "找到${hits}条结果（用时 ${time} ms）"
 
+# 不依赖第三方服务的站内搜索；与 Algolia 搜索二选一。
+local_search:
+  enable: true
+  hits:
+    per_page: 10
+  labels:
+    input_placeholder: "搜索文章....."
+    hits_empty: "未发现与「${query}」相关的文章"
+    hits_stats: "找到 ${hits} 篇文章（用时 ${time} ms）"
+    loading: "正在加载文章索引……"
+    load_error: "搜索索引加载失败，请稍后重试。"
+
 ########################################
 # Animation
 ########################################
