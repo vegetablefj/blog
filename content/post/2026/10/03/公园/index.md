@@ -30,7 +30,7 @@ cover: /blog/post/2026/10/03/公园/118.jpg
 {{< photo src="9.jpg" width="500" >}}
 {{< photo src="10.jpg" width="500" >}}
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117379677821474&bvid=BV1gfHz6QEU3&cid=42441508472&p=1"
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117379677821474&bvid=BV1gfHz6QEU3&cid=42441508472&p=1&autoplay=0"
         width="600"
         height="400"
         style="display:block; margin:0 auto; max-width:100%;"
@@ -63,7 +63,7 @@ cover: /blog/post/2026/10/03/公园/118.jpg
 {{< photo src="97.jpg" width="500" >}}
 {{< photo src="98.jpg" width="500" >}}
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117379694597481&bvid=BV13ZHz6pECQ&cid=42441572824&p=1"
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117379694597481&bvid=BV13ZHz6pECQ&cid=42441572824&p=1&autoplay=0"
         width="600"
         height="400"
         style="display:block; margin:0 auto; max-width:100%;"
@@ -83,7 +83,7 @@ cover: /blog/post/2026/10/03/公园/118.jpg
 {{< photo src="105.jpg" width="500" >}}
 {{< photo src="134.jpg" width="500" >}}
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117379711375564&bvid=BV1A5H66rEWR&cid=42441639434&p=1"
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117379711375564&bvid=BV1A5H66rEWR&cid=42441639434&p=1&autoplay=0"
         width="600"
         height="400"
         style="display:block; margin:0 auto; max-width:100%;"
@@ -99,7 +99,7 @@ cover: /blog/post/2026/10/03/公园/118.jpg
 {{< photo src="114.jpg" width="500" >}}
 {{< photo src="115.jpg" width="500" >}}
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117379728150946&bvid=BV1PVH66GESf&cid=42441705107&p=1"
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117379728150946&bvid=BV1PVH66GESf&cid=42441705107&p=1&autoplay=0"
         width="600"
         height="400"
         style="display:block; margin:0 auto; max-width:100%;"
@@ -117,7 +117,7 @@ cover: /blog/post/2026/10/03/公园/118.jpg
 
 ## 绒啄木鸟 Downy Woodpecker
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117379744929402&bvid=BV1w7H66zEtt&cid=42441769337&p=1"
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117379744929402&bvid=BV1w7H66zEtt&cid=42441769337&p=1&autoplay=0"
         width="600"
         height="400"
         style="display:block; margin:0 auto; max-width:100%;"

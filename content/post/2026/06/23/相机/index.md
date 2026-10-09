@@ -53,7 +53,7 @@ tags:
 
 以及这个视频. 非常搞笑.
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=116815543934271&bvid=BV1CS736JEgY&cid=39423443886&p=1"
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=116815543934271&bvid=BV1CS736JEgY&cid=39423443886&p=1&autoplay=0"
         width="600"
         height="400"
         style="display:block; margin:0 auto;"

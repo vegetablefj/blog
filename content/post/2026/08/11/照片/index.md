@@ -30,7 +30,7 @@ tags:
 
 在上海拍的, 非常具有戏剧性. 应该是一只大腹圆蛛.
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117034922809361&bvid=BV1fbuF6RE9d&cid=40576812151&p=1"
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117034922809361&bvid=BV1fbuF6RE9d&cid=40576812151&p=1&autoplay=0"
         width="300"
         height="500"
         style="display:block; margin:0 auto;"
@@ -41,7 +41,7 @@ tags:
 
 ## 黑卷尾嗦蝉
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117104447590686&bvid=BV1KVb96NE5k&cid=40963213909&p=1"
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117104447590686&bvid=BV1KVb96NE5k&cid=40963213909&p=1&autoplay=0"
         width="600"
         height="400"
         style="display:block; margin:0 auto;"
@@ -127,7 +127,7 @@ tags:
 {{< photo src="20.jpg" width="500" >}}
 {{< photo src="21.jpg" width="500" >}}
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117076597543973&bvid=BV17xuz6wEWP&cid=40813135898&p=1"
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=117076597543973&bvid=BV17xuz6wEWP&cid=40813135898&p=1&autoplay=0"
         width="600"
         height="400"
         style="display:block; margin:0 auto;"
