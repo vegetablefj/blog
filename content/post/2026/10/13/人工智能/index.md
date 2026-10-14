@@ -3,7 +3,7 @@ title: AI(4Math)杂谈
 description: 关于AI(4Math)的增长、理解、知识组织、商业供应与社会价值的随意设想
 date: 2026-10-13T22:42:02-04:00
 lastmod: 2026-10-13T22:42:02-04:00
-draft: true
+draft: false
 math: true
 mermaid: false
 cover: /blog/post/2026/10/13/人工智能/cover.jpg
