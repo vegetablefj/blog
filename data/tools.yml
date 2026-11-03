@@ -61,10 +61,22 @@
 - name: 搜图Bot酱
   url: https://soutubot.moe/
   desc: NH局部搜图
-  image: https://soutubot.moe/favicon.ico
+  image: /blog/images/link-icons/soutubot.png
 - name: ascii2d
   url: https://ascii2d.net/
   desc: 二次元画像詳細検索
   image: https://ascii2d.net/assets/favicon-461e7af86f6c1a73f716cf8c729e65d6164851b66470932d01ef928ebbaed6ba.ico
+- name: WizTree
+  url: https://diskanalyzer.com/
+  desc: 磁盘空间分析与大文件定位
+  image: https://diskanalyzer.com/favicon-32x32.png
+- name: AI 哨兵
+  url: https://divin.cc/
+  desc: AI 工具额度重置提醒
+  image: https://divin.cc/favicon.png
+- name: 水杉输入法
+  url: https://msime.app/
+  desc: 开源多语言输入法
+  image: https://msime.app/msime-logo.png
 
 

@@ -6,6 +6,10 @@
   url: https://simplopedia.org/
   desc: 单纯猫的数学百科
   image: https://simplopedia.org/assets/favicon.ico
+- name: Hexagon
+  url: https://hexagonmath.org/
+  desc: 数学与理论计算机科学文献库
+  image: https://hexagonmath.org/favicon-192.png
 - name: 中文马克思主义文库
   url: https://www.marxists.org/chinese/index.html
   desc: PDF文库

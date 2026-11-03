@@ -1,0 +1,106 @@
+// Project override for compact friend and resource cards.
+.friend-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.friend-item-wrap {
+  width: calc((100% - 12px) / 2);
+  min-width: 0;
+  height: 80px;
+  box-sizing: border-box;
+  background: var(--color-wrap);
+  box-shadow: 0 0 10px 2px var(--color-hover-shadow);
+  border-radius: $post-radius;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  transition: 0.3s;
+
+  &:hover {
+    transform: scale(1.015);
+    box-shadow: 0 0 10px 4px var(--color-hover-shadow);
+  }
+
+  @media #{$mg-normal} {
+    width: 100%;
+  }
+
+  a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+}
+
+.friend-icon-wrap {
+  width: 72px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  flex-shrink: 0;
+}
+
+.friend-icon {
+  width: 50px;
+  height: 50px;
+  position: relative;
+
+  img {
+    display: block;
+    opacity: 0;
+    transition: opacity 0.2s;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+  }
+
+  img.lazyloaded {
+    opacity: 1;
+    animation: blur 0.8s forwards;
+  }
+}
+
+.friend-info-wrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+  padding: 0 8px;
+  overflow: hidden;
+
+  div {
+    margin: 3px 0;
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.friend-name {
+  color: var(--red-2);
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.friend-desc {
+  color: var(--grey-9);
+  font-size: 13px;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
