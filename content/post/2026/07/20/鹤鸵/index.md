@@ -3,7 +3,7 @@ title: 鹤鸵属
 description: (古颚下纲-南方古颚类-新平胸类-)鹤鸵目-鹤鸵科
 
 date: 2026-07-20T02:31:46+08:00
-lastmod: 2026-07-20T02:31:46+08:00
+lastmod: 2026-11-03
 
 math: true
 mermaid: false
@@ -20,19 +20,30 @@ tags:
 ---
 # 鹤鸵属
 
+*封面为澳大利亚 Etty Bay 的南方鹤鸵 Casuarius casuarius。*
+
+{{< image-credit
+  author="Summerdrought"
+  author_url="https://commons.wikimedia.org/wiki/User:Summerdrought"
+  source="https://commons.wikimedia.org/wiki/File:Southern_Cassowary_7071.jpg"
+  source_title="Wikimedia Commons"
+  license="CC BY-SA 4.0"
+  license_url="https://creativecommons.org/licenses/by-sa/4.0/"
+>}}
+
 ~~等世界杯实在无聊了~~
 
-在wiki的模板页面看到, 似乎整个古颚下纲实际上包含于鸟纲下面的主龙形下纲-兽脚亚目-手盗龙类. 但是相关的信息太少了, 而且看起来一定程度上生物分类总是这样有点无限可分的感觉. 所以就不深究这些下纲和类了. 因此文章描述中的括号中的信息也没有那么良定义, 也没那么重要了. 至少希望能保持一致吧.
+在wiki的模板页面看到, 鸟类属于主龙类中的兽脚类恐龙, 进一步属于手盗龙类, 古颚类则是鸟类内部的一个分支. 看起来生物分类总是这样有点无限可分的感觉. 这些演化支就先不逐个深究了, 至少希望文章描述中的括号能保持一致吧.
 
-新平胸类Novaeratitae为古颚下纲下的一个演化支，包含了鹤鸵目（鹤鸵与鸸鹋）、无翼鸟目（鹬鸵）及它们的共同祖先.近年来的研究显示，包含象鸟在内已灭绝的隆鸟目为现存鹬鸵的近亲，因此也被分类至此演化支下. 由于象鸟所栖息的马达加斯加与大洋洲相隔一段距离，这意味着新平胸类物种是在飞抵各岛屿后才失去飞行能力的.
+新平胸类Novaeratitae是古颚类中的一个演化支, 包含鹤鸵、鸸鹋、几维以及已经灭绝的隆鸟. 马达加斯加的隆鸟与新西兰的几维亲缘关系很近.
 
-似乎还有一个叫做平胸类Ratite的多系群, 我没有仔细看这玩意的范围. 似乎和古颚下纲差不多. 还顺便发现相关的内容里面英文wiki比中文翔实太多了www.
+传统的平胸类ratites包括鸵鸟、美洲鸵、鹤鸵、鸸鹋、几维等不飞行的古颚类, 古颚类中还有会飞的䳍类. 还顺便发现相关的内容里面英文wiki比中文翔实太多了www.
 
-鹤鸵目Casuariidae是新平胸类下边一个目. 其中除了似了的第欧根尼鸟属Diogenornis之外都在鹤鸵科Casuariidae. 鹤鸵科下边则有鹤鸵属Casuarius, 鸸鹋属Dromaius和似了的拟鸸鹋属Emuarius. 今天的主角是鹤鸵属.
+鹤鸵目Casuariiformes的现生成员包括鹤鸵属Casuarius的三种鹤鸵, 以及鸸鹋属Dromaius的鸸鹋, 都归在鹤鸵科Casuariidae中. 今天的主角是鹤鸵属.
 
-鹤鸵是鹤鸵属哥们的统称, 又称食火鸡. 现今主要分布于印尼努沙登加拉群岛和马鲁古群岛、新几内亚岛一带与澳大利亚东北部的热带森林. 鹤鸵是杂食性鸟类，主要以落果或生长于低矮树枝的果实为食，也会取食真菌、无脊椎动物与小型脊椎动物.
+鹤鸵是鹤鸵属哥们的统称, 又称食火鸡. 主要分布于新几内亚及邻近岛屿、澳大利亚东北部的热带森林. 鹤鸵主要吃果实, 也会取食真菌、无脊椎动物与小型脊椎动物. 它们吞食果实后把种子带到别处, 是雨林里的重要种子传播者.[^cassowary]
 
-鹤鸵喜独居，生性沉默害羞，警戒性高，在自然栖地中会主动避开人类，受惊时能以高达50公里时速在浓密的森林中窜逃. 鹤鸵亦有领域性，且攻击性极强. 其双腿粗壮，趾爪长而锋利，一跃可逾1.5米高(真的假的?)，能借由踢脚结合利爪对入侵者与骚扰者造成致命伤害，因此常被冠以“世界上最危险的鸟类”名号.
+鹤鸵通常独居, 警戒性高, 在自然栖地中会主动避开人类. 它们有领域性, 双腿粗壮, 能用锋利的趾爪有力地踢击, 因此常被冠以“世界上最危险的鸟类”名号.
 
 平心而论, 我觉得鹤鸵长得非常帅, 很有恐龙的遗风.
 
@@ -40,19 +51,29 @@ tags:
 
 南方鹤鸵, 又称双垂鹤鸵/澳洲鹤鸵, 分布于印度尼西亚、巴布亚新几内亚和澳大利亚东北部. 在澳大利亚被列为濒危物种.
 
-{{< figure src="/blog/post/2026/07/20/鹤鸵/1.jpg"   width="400px" >}}
+{{< photo
+  src="1.jpg"
+  width="400"
+  alt="南方鹤鸵的头颈特写，蓝色颈部下有两个红色肉垂"
+  caption="南方鹤鸵 Casuarius casuarius"
+  author="safaris"
+  author_url="https://www.flickr.com/photos/95203176@N00"
+  source="https://commons.wikimedia.org/wiki/File:Casuarius_casuarius_-upper_body_-captive-8a-2c.jpg"
+  source_title="Wikimedia Commons"
+  license="CC BY 2.0"
+  license_url="https://creativecommons.org/licenses/by/2.0/"
+  changes="裁剪与透视校正：Snowmanradio"
+>}}
 
-在英文wiki中注意到一些有趣的事情: 目前大多数权威人士认为南方鹤鸵是单型种，但已描述了几个亚种. 由于个体差异、年龄相关差异、可获得的标本相对较少（而且头部和颈部鲜亮的皮肤——几个亚种的描述依据——在标本中会褪色），以及当地人已知数百年甚至数千年来一直在交易活食火鸡，其中一些很可能是逃逸的/被故意引入到远离其原产地的地区，因此确认这些亚种的有效性非常困难. 同时, 人们曾经莫名其妙地给南方鹤鸵赋予了数十个学名, 现在都被认为是同义词.
+在英文wiki中注意到一些有趣的事情: 南方鹤鸵曾被赋予许多学名, 其中不少现在被视为同义词. 头颈颜色会随个体和年龄变化, 当地人长期交易和搬运活鸟也让它们的地理分布变得复杂, 亚种的划分因此很麻烦.
 
-成年南方鹤鸵身高平均约1.2-1.7米高，最高可到1.9米，体重平均约17~70公斤，本种为两性异形，雌雄羽毛相似，但雌性的体型较大, 有较长的骨盔、较大的鸟喙、裸露处颜色较亮，前颈的2个肉垂较大(我还专门核查了一下, 居然是雌性优势, 有些不常见, 是因为这玩意比较古老吗?). 雏鸟则有棕色纵向条纹，且表面有颗粒状的点，最初颜色呈明亮的豌豆绿，随着成长会逐渐褪色. 南方鹤鸵头上有骨盔. 头颈部颜色较明亮，长脖子大部分裸出，喉下有二个鲜红色的肉垂，垂肉的颜色会随着年龄而发生变化，角质冠也较高. 翅膀短小已经退化且无法飞行，在飞羽着生处只具有羽翮，特化为6枚硬棘. 体被亮黑色羽毛, 质地粗糙，有些羽毛尖端特化成较长的发状细丝. 足具3跟长趾, 均向前. 善于奔跑，三趾中最内侧脚趾有一个12厘米长匕首一样锋利的长指甲，强壮而锐利，主要用于搏斗.
+成年南方鹤鸵雌雄羽毛相似, 雌性通常体型更大, 骨盔和肉垂也更大(我还专门核查了一下, 居然是雌性优势, 有些不常见). 身体覆盖粗糙的黑色羽毛, 头颈大部分裸露, 颜色鲜亮, 喉下有两个红色肉垂. 翅膀很小, 飞羽退化成硬棘. 足具3根长趾, 均向前, 最内侧脚趾有匕首一样锋利的爪.
 
-头上黄色骨盔的功用(之一?)就像声波接收器，为了让自己的声音能够穿透树林，它能够发出比其他鸟类都要低频率的叫声，此时头顶上的骨盔就能接收声波.
+骨盔表面覆盖角质, 内部有丰富的血管, 可以帮助调节散热.[^casque]
 
-雏鸟头顶有骨甲，头和颈暗棕色，前颈浅黄，有2个三角形小肉垂，体余部为黄色或淡黄色，上体有黑色宽纵纹. 在最初的3-6个月里，它们的体羽都是棕色而不是黑色，上面有延着体长生长的黑色条纹. 直到大约一岁时，才会长出彩色脖子.
+雏鸟是棕黄色的, 身上有深色纵纹, 长大后逐渐变成较均匀的棕色, 再换成成鸟的黑色羽毛和彩色头颈. 蛋则呈绿色, 表面有颗粒状纹理. 雌鸟产卵后, 由雄鸟负责孵卵和带领幼鸟活动.[^cassowary]
 
-南方食火鸡在交配季节会发出雷鸣般的叫声，其他时间则发出嘶嘶声和隆隆声。雏鸟会频繁发出高亢的联络哨声和啁啾声来吸引雄性.
-
-南方食火鸡素来被认为对人类和其他动物具有危险性，且常被认为具有攻击性. 这种鸟类跳跃能力很强，并能用锋利的爪子有力地踢击. 然而，与南方食火鸡的致命遭遇非常罕见。自1900年以来，仅有两起人类死亡的记录.
+南方食火鸡会发出低沉的隆隆声和嘶嘶声. 雏鸟则用较高的哨声和啁啾声联系父亲.
 
 我在北京动物园见过一次南方鹤鸵. 动物园里看着呆呆的. 头两侧的(应该是?)耳孔还挺引人注目的. 非常霸气.
 
@@ -62,26 +83,51 @@ tags:
 
 ~~好的, 现在是一边世界杯一边写了~~
 
-北方鹤鸵, 又称单垂鹤鸵或金颈鹤鸵，分布于新几内亚北部.
+北方鹤鸵, 又称单垂鹤鸵或金颈鹤鸵, 分布于新几内亚北部的低地森林和沼泽地带. 颈部只有一个肉垂, 是与南方鹤鸵很直观的区别.[^species]
 
-{{< figure src="/blog/post/2026/07/20/鹤鸵/2.jpg"   width="400px" >}}
+{{< photo
+  src="2.jpg"
+  width="400"
+  alt="巴厘鸟园的北方鹤鸵，颈部有一个橙色肉垂"
+  caption="北方鹤鸵 Casuarius unappendiculatus"
+  author="www.viajar24h.com"
+  author_url="https://www.flickr.com/photos/67471595@N00"
+  source="https://commons.wikimedia.org/wiki/File:Casuarius_unappendiculatus_-Northern_Cassowary_-oblique_front.jpg"
+  source_title="Wikimedia Commons"
+  license="CC BY 2.0"
+  license_url="https://creativecommons.org/licenses/by/2.0/"
+>}}
 
 (乖巧)(萌萌)这个配色真漂亮啊.
 
-与南方鹤鸵相比，北方鹤鸵的喙略短，为12至13.7厘米，但跗骨略长，为28至33.2厘米.
-
-南方和北方鹤鸵的盔突在紫外线照射下都会发光，且发光模式不同. 这似乎是2026年的发现.
+南方和北方鹤鸵的骨盔在紫外线照射下都有荧光, 发光图案不同. 这是2026年发表的研究.[^fluorescence]
 
 哪怕是英文wiki上相关的资料其实都不多, 就抄这么多吧.
 
 ## 侏鹤鸵 Casuarius bennetti
 
-侏鹤鸵又称小鹤鸵, 比另外两种哥们小一些. 目前已知两个亚种, 是新几内亚岛山地云雾林和热带雨林的特有物种.
+侏鹤鸵又称小鹤鸵, 比另外两种哥们小一些, 主要生活在新几内亚的山地森林中. 它没有肉垂, 骨盔较矮, 后部较平.[^species]
 
-{{< figure src="/blog/post/2026/07/20/鹤鸵/3.jpg"   width="400px" >}}
+{{< photo
+  src="3.jpg"
+  width="400"
+  alt="巴布亚新几内亚莱城 Rainforest Habitat 的侏鹤鸵"
+  caption="侏鹤鸵 Casuarius bennetti"
+  author="Gaurav Nalkur"
+  source="https://commons.wikimedia.org/wiki/File:Dwarf_Cassowary_Lae.jpg"
+  source_title="Wikimedia Commons"
+  license="CC BY-SA 3.0"
+  license_url="https://creativecommons.org/licenses/by-sa/3.0/"
+  changes="裁剪：PaleoNeolitic、Argo Navis"
+>}}
 
 该物种的学名是为了纪念澳大利亚博物学家George Bennett.
 
-雌性盔突更长，裸露皮肤颜色更亮，体型也更大. 侏儒食火鸡的盔突通常呈纯黑色. 而且很遗憾，侏鹤鸵的盔突在紫外线下不会发光.
+雌性的体型较大, 骨盔通常呈黑色. 而且很遗憾, 这项研究中侏鹤鸵的骨盔几乎没有荧光.[^fluorescence]
 
 *在这种哥们不多的属, 除去代表性的物种, 其实能讲的就不多了. 事实上大家也真的就是更关心较为代表性的物种一些.*
+
+[^cassowary]: [澳大利亚博物馆：Southern Cassowary](https://australian.museum/learn/animals/birds/southern-cassowary/).
+[^species]: [圣迭戈动物园：Cassowary](https://animals.sandiegozoo.org/animals/cassowary).
+[^casque]: Eastick等, 2019, [Cassowary casques act as thermal windows](https://www.nature.com/articles/s41598-019-38780-8).
+[^fluorescence]: [Ultraviolet light illuminates species-specific biofluorescent casque patterns in cassowaries (Casuarius)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13031414/), 2026.

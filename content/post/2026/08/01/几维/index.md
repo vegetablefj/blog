@@ -3,12 +3,12 @@ title: 无翼属
 description: (古颚下纲-南方古颚类-新平胸类-)无翼目-无翼科
 
 date: 2026-08-01T11:42:33+08:00
-lastmod: 2026-08-01T11:42:33+08:00
+lastmod: 2026-11-03
 
 math: true
 mermaid: false
 
-cover: /blog/post/2026/08/01/几维/1.jpg
+cover: /blog/post/2026/08/01/几维/2.jpg
 
 
 
@@ -20,53 +20,104 @@ tags:
 ---
 # 无翼属
 
-无翼属Apteryx是无翼目Apterygiformes无翼科Apterygidae下唯一的属. 其中的生物统称为鹬鸵, 又称无翼鸟(好的)、奇异鸟(确实很像奇异果)、几维鸟、奇威鸟. 英文叫法有Kiwi bird，ki-wi bird，keewee bird，kee-wee bird，kiwi，ki-wi，keewee，kee-wee等, 因其"kiwi"的叫声而得名. 是新西兰的特有种，也是新西兰的国鸟及象征.
+*封面为小斑几维，与下文配图相同。*
 
-2013 年在新西兰南岛 Saint Bathans Fauna 遗址发现生存于中新世的原几维鸟，体型较现存的几维鸟小且可能具有飞行能力。这项发现证明了几维鸟与恐鸟是在不同的时期独立来到新西兰的，且当原几维鸟来到新西兰时，恐鸟已经演化成不会飞的大型鸟类.
+{{< image-credit
+  author="Judi Lapsley Miller"
+  author_url="https://commons.wikimedia.org/wiki/User:Psychokiwi"
+  source="https://commons.wikimedia.org/wiki/File:20180703_kiwi-sonya9_959_DxO.jpg"
+  source_title="Wikimedia Commons"
+  license="CC BY 4.0"
+  license_url="https://creativecommons.org/licenses/by/4.0/"
+>}}
 
-几维鸟的身材小而粗短，嘴长而尖，腿部强壮，羽毛如发. 几维鸟胸骨前并无龙骨突，翅膀退化，无法飞行. 眼睛细小，视力衰弱，其他感官却异常发达，觅食时用尖嘴灵活地刺探，长嘴末端的鼻孔可嗅出十厘米深以下泥土中虫的位置，进而捕食. 几维鸟害羞，易受惊吓，且因其夜行习惯，要观察它们的生态并不容易. 它们的寿命可达三十年.
+无翼属Apteryx是无翼目Apterygiformes无翼科Apterygidae下唯一的现存属. 其中的生物统称为鹬鸵, 又称无翼鸟(好的)、奇异鸟(确实很像奇异果)、几维鸟、奇威鸟. 英文统称kiwi, 名字来自它们的叫声. 它们是新西兰特有的鸟类，也是新西兰的象征.
 
-几维鸟通常于日间入睡，在夜间行动。其夜行习性可能因日间猎物竞争激烈而成。几维鸟于初抵新西兰时，因日间之猎物为恐鸟所垄断，故需转至夜晚觅食。 如今，在保育区或斯图尔特岛等免受捕食者侵扰的地区，几维鸟亦见于日间出没。
+2013年描述的原几维鸟Proapteryx micromeros来自新西兰南岛St Bathans的早中新世地层, 体型比现存的几维鸟都小.[^fossil]
 
-几维鸟主要的繁殖季节是在每年的6月至翌年3月，届时每对几维鸟伴侣会在夜间互相呼唤，并在巢中交配。几维鸟与信天翁、海鸥一样采用一夫一妻制，夫妻关系可长达20年，但如果连续几个繁殖季节都没有成功孵化出幼鸟，几维鸟夫妇也可能会选择“分道扬镳”，各自去寻找生育能力更强的搭档。如果配偶不幸去世，幸存的一方（无论是雄性还是雌性）通常会在下一个繁殖季节寻找新的伴侣，而不是独自度过余生.
+几维鸟的身材小而粗短，嘴长而尖，腿部强壮，羽毛如发. 几维鸟胸骨上没有龙骨突，翅膀退化，无法飞行. 眼睛细小，嗅觉和听觉发达，鼻孔位于长嘴末端附近，嘴尖还有能感受猎物活动的感觉小窝，觅食时会用嘴探查土壤和落叶. 它们的寿命可达数十年.[^kiwi-manual]
 
-几维鸟由雄鸟负责孵卵的工作（新西兰人也因此称顾家的男人为“Kiwi husband”），过程由63至92天不等； 惟大斑几维则夫妻交替孵卵，属唯一例外。雌鸟产蛋后，角色即转变为在洞穴外守卫的卫兵。几维鸟的蛋十分巨大，约半千克重，可达雌鸟体重的五分之一(这一点颇为出名)。 另外，几维鸟通常每季只产一蛋，且因产下如此巨型的蛋对雌鸟造成重大生理压力，雌鸟必须进食三倍平常食量，以使鸟蛋顺利发育。在产蛋前两至三天，鸟蛋之巨甚至使雌鸟没有空间进食，只得捱饿。孵化后，几维鸟即长齐羽毛，未几便脱离父母独立生活。(wiki上这一段怎么翻译的这么古朴)
+几维鸟大多白天休息、夜间活动，观察它们并不容易. 斯图尔特岛的褐几维则经常在白天觅食.[^tokoeka]
 
-新西兰和澳大利亚基于地缘关系，在过去千万年均被海洋隔开，远离亚洲及其他大洲。因此新西兰没有受到来自亚洲的肉食动物的侵扰，使得这片与世隔绝的岛屿，一度成为鸟类的天堂，许多独特的鸟类也得以在此繁衍。
+几维鸟的配偶常维持长期关系，雌雄会通过鸣叫联络. 它们的蛋很大，可达雌鸟体重的五分之一(这一点颇为出名)，孵化约需70至90天. 雏鸟出壳时已有羽毛，很快便能自行觅食.[^kiwi-manual]
 
-但自毛利人、欧洲人相继发现这块未开发地以来，他们带来的外来物种，如鼠、狗、羊、牛、马、猫等，不仅逐渐变成强势动物，也改变了新西兰的生态平衡。此外，岛上的白鼬会对雏鸟构成威胁。加上人类活动如开垦、建设等，破坏和侵犯原本鸟类的栖息地，已使50余种鸟类走上绝种之路。如巨型恐鸟，站起来高达四米，现在只能在博物馆看到它的骨骼标本；又如新西兰鹰，有着如虎爪一样大小的利爪，它曾是世界上最大的老鹰，但它难逃绝种的命运。
+北岛褐几维和小斑几维主要由雄鸟孵卵；大斑几维、白眶几维和褐几维由雌雄分担，斯图尔特岛褐几维的其他家庭成员也会帮忙. 北岛褐几维每窝通常1至2蛋，一季可有多窝；大斑、白眶和褐几维通常每窝1蛋. 一些幼鸟会在父母领地内生活数年.[^kiwi-manual]
 
-传统上，毛利人相信几维鸟受森林之神保祐，并以其羽毛编织成祭袍穿着。时至今日，几维鸟的羽毛仍为人类所用，后者会从因自然周期、道路事故、捕食猎杀等缘故而死亡的鸟只中获取羽毛。此外，人类亦不再捕猎几维鸟，某些毛利人更视自己为几维鸟的保卫者。第一次世界大战期间，新西兰士兵常以“奇异士”（Kiwis）自称，并在英格兰威尔特郡一处军营山坡上刻上大型几维鸟标记。迄今，人们都普遍称呼海内外新西兰人为“奇异士”。
+新西兰长期的地理隔离形成了独特的鸟类群落. 人类到来后的捕猎、栖息地改变，以及引入的鼠、狗、猫和白鼬等哺乳动物，造成了许多本土鸟类的衰退和灭绝. 对几维鸟来说，白鼬捕食雏鸟，狗和雪貂等也会捕杀成鸟；控制这些捕食者是保护工作的重要部分.[^kiwi-manual]
+
+几维鸟在毛利文化中很有地位, 羽毛被用于编织象征身份和威望的披风. 现在仍有人制作这类披风, 会使用因捕食、道路事故等原因死亡的鸟的羽毛.[^culture]
 
 现存的几维鸟有五种。其中大斑几维及小斑几维可归类为斑几维鸟，而褐几维、白眶几维及北岛褐几维又可归类为褐几维鸟.
 
-## 大斑几维 Apteryx haastii
+## 大斑几维 Apteryx maxima
 
-大斑几维是无翼属最大的一种鸟类，原产于新西兰的南岛。它生活在高海拔地区，因此受入侵物种影响较小，相对其他几维鸟来说，数量下降速度不快（但在过去45年中仍下降了43%），整体种群数量接近16,000，大部分都在尼尔逊和南阿尔卑斯山脉一带。
+大斑几维是体型较大的几维鸟，原产于新西兰南岛西北部，栖息于森林、灌丛和亚高山草地. 羽毛灰褐色，带有浅色横斑，腿和爪颜色较暗.[^roroa]
 
-懂师傅上写最新的AvList世界鸟类名录2025版中, 这哥们的学名是Apteryx maxima. 这里提一嘴, 之后大概做不到这类问题都能注意到吧, 摆了.
+这哥们以前常写作Apteryx haastii. 2021年的研究发现，haastii所依据的模式标本其实是白眶几维与小斑几维的杂交个体，因此恢复使用更早发表的名称Apteryx maxima.[^name]
 
-{{< figure src="/blog/post/2026/08/01/几维/1.jpg"   width="500px" >}}
+{{< photo
+  src="1.jpg"
+  width="500"
+  alt="日光下在碎石间活动的大斑几维"
+  caption="大斑几维"
+  author="Florian Bäthge"
+  source="https://www.inaturalist.org/photos/2842606"
+  source_title="iNaturalist"
+  license="CC BY-NC 4.0"
+  license_url="https://creativecommons.org/licenses/by-nc/4.0/"
+>}}
 
-大斑几维攻击性较强，会守卫自己的领土。它们是一种夜行动物，晚上捕食无脊椎动物，也吃植物。它们在六月至三月间繁殖，幼鸟需要75至85天孵化。
+大斑几维攻击性较强，会守卫自己的领土. 它们主要在夜间捕食蚯蚓、昆虫等无脊椎动物，也吃少量果实和叶片. 通常于7至12月产卵，雌雄共同孵卵.[^roroa]
 
 ## 小斑几维 Apteryx owenii
 
 小斑几维是无翼属最小的一种鸟类，重不超过2千克。它原产于新西兰，殖民者到来之前广泛分布于南北两岛，现在仅见于几个保护区和离岸小岛。
 
-{{< figure src="/blog/post/2026/08/01/几维/2.jpg"   width="500px" >}}
+{{< photo
+  src="2.jpg"
+  width="500"
+  alt="在草地上觅食的小斑几维"
+  caption="小斑几维 Apteryx owenii"
+  author="Judi Lapsley Miller"
+  author_url="https://commons.wikimedia.org/wiki/User:Psychokiwi"
+  source="https://commons.wikimedia.org/wiki/File:20180703_kiwi-sonya9_959_DxO.jpg"
+  source_title="Wikimedia Commons"
+  license="CC BY 4.0"
+  license_url="https://creativecommons.org/licenses/by/4.0/"
+>}}
 
 ## 褐几维 Apteryx australis
 
-褐几维，英文中称作southern brown kiwi, tokoeka, or common kiwi. 栖息在新西兰南岛和斯图尔特岛的密集高大的树木组成的森林中。
+褐几维，英文中称作southern brown kiwi或tokoeka. 栖息在新西兰南岛西南部和斯图尔特岛的森林、灌丛和草地. 斯图尔特岛的褐几维体型可超过大斑几维.[^tokoeka]
 
-{{< figure src="/blog/post/2026/08/01/几维/3.jpg"   width="500px" >}}
+{{< photo
+  src="3.jpg"
+  width="500"
+  alt="斯图尔特岛落叶中的野生褐几维"
+  caption="褐几维 Apteryx australis"
+  author="Glen Fergus"
+  author_url="https://commons.wikimedia.org/wiki/User:Glen_Fergus"
+  source="https://commons.wikimedia.org/wiki/File:Tokoeka.jpg"
+  source_title="Wikimedia Commons"
+  license="CC BY-SA 2.5"
+  license_url="https://creativecommons.org/licenses/by-sa/2.5/"
+>}}
 
 ## 北岛褐几维 Apteryx mantelli
 
 北岛褐几维分布于新西兰北岛, 与褐几维曾被视为同一物种.
 
-{{< figure src="/blog/post/2026/08/01/几维/4.jpg"   width="400px" >}}
+{{< photo
+  src="4.jpg"
+  width="400"
+  alt="树洞中的北岛褐几维雄鸟 Te Tuatahi a nui"
+  caption="北岛褐几维 Apteryx mantelli"
+  author="Maungatautari Ecological Island Trust"
+  source="https://commons.wikimedia.org/wiki/File:TeTuatahianui.jpg"
+  source_title="Wikimedia Commons"
+  license="公有领域（PD-author）"
+  license_url="https://commons.wikimedia.org/wiki/File:TeTuatahianui.jpg#Licensing"
+>}}
 
 *这些哥们看着也太像鼹鼠什么的了*
 
@@ -74,18 +125,31 @@ tags:
 
 白眶几维, 台湾作奥卡里多褐鹬鸵, 分布于新西兰南岛西海岸的奥卡里托森林.
 
-{{< figure src="/blog/post/2026/08/01/几维/5.jpg"   width="400px" >}}
+{{< photo
+  src="5.jpg"
+  width="400"
+  alt="布卢明岛林地中的白眶几维"
+  caption="白眶几维 Apteryx rowi"
+  author="Mark Anderson"
+  author_url="https://commons.wikimedia.org/wiki/User:Markanderson72"
+  source="https://commons.wikimedia.org/wiki/File:Okarito_kiwi_2.jpg"
+  source_title="Wikimedia Commons"
+  license="CC BY-SA 4.0"
+  license_url="https://creativecommons.org/licenses/by-sa/4.0/"
+>}}
 
 这哥们相关的图像资料好像有点少.
 
-我注意到中文wiki上写了这些哥们的一些测量数据(英文wiki上似乎没有), 比如白眶几维"体重1924克，翼长0.1毫米，嘴峰长157毫米，喙宽度4.7毫米，喙厚度5.3毫米，跗跖长84毫米，尾长0.1毫米". 这可能是从某些文章中截取的数据. 这些0.1毫米略有些hyw. 不加约也是有些潦草了.
+我注意到中文wiki上写了这些哥们的一些测量数据(英文wiki上似乎没有), 比如白眶几维的翼长和尾长都写成了0.1毫米. 这些0.1毫米略有些hyw. 不加约也是有些潦草了.
 
 我在wiki上没有找到如何辨识这哥们和其他kiwi. 懂师傅说, "多数个体头部有白色羽毛, 尤其是眼周". 懂师傅上的信息似乎比wiki上要详尽一些.
 
-懂师傅上还说, "平均寿命可达80年, 最长可达100年左右". 我询问了GPT这一说法的真实性, GPT说:
+懂师傅上还说, "平均寿命可达80年, 最长可达100年左右". New Zealand Birds Online列出的白眶几维最大寿命为34至48年.[^rowi] 总之懂师傅这句话应该是不太合理的.
 
-- 2020年新西兰自然保护部的一则新闻稿确实称，这种鸟“可以活到80岁”;  
-- 由新西兰鸟类学专家维护的 New Zealand Birds Online，专门列出白眶几维的“最大寿命”为 34—48年;  
-- 白眶几维是长寿鸟类，活到四五十岁是有资料支持的；80年更像是依据其生理特点和极端个体作出的潜在上限估计，而不是可靠、普遍认可的实测纪录.
-
-总之这句话应该是不太合理的.
+[^fossil]: Worthy等，2013，[Miocene fossils show that kiwi (Apteryx, Apterygidae) are probably not phyletic dwarves](https://verlag.nhm-wien.ac.at/buecher/2013_SAPE_Proceedings/06_Worthy_et_al.pdf).
+[^kiwi-manual]: 新西兰自然保护部，[Kiwi Best Practice Manual（2019）](https://www.doc.govt.nz/globalassets/documents/science-and-technical/sap262entire.pdf)，第1章及表1.1.
+[^tokoeka]: New Zealand Birds Online，[Southern brown kiwi | Tokoeka](https://www.nzbirdsonline.org.nz/species/southern-brown-kiwi).
+[^roroa]: New Zealand Birds Online，[Great spotted kiwi | Roroa](https://www.nzbirdsonline.org.nz/species/great-spotted-kiwi).
+[^name]: Shepherd等，2021，[Hybridisation in kiwi (Apteryx; Apterygidae) requires taxonomic revision for the Great Spotted Kiwi](https://doi.org/10.1186/s40657-021-00257-6).
+[^rowi]: New Zealand Birds Online，[Rowi | Okarito brown kiwi](https://www.nzbirdsonline.org.nz/species/okarito-brown-kiwi).
+[^culture]: 新西兰国家博物馆Te Papa，[Kahu huruhuru style of cloak](https://collections.tepapa.govt.nz/topic/3633).

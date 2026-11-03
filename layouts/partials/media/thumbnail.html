@@ -10,10 +10,11 @@
     {{- $thumb = $image.Resize (printf "%dx webp q80" $thumbWidth) -}}
   {{- end -}}
   {{- $alt := .Alt | default $src -}}
+  {{- $credit := partial "media/credit.html" (.Credit | default dict) -}}
   <figure{{ with .DisplayWidth }} style="max-width: {{ . }}px; margin-inline: auto"{{ end }}>
     <a class="article-gallery-item" href="{{ $image.RelPermalink }}" data-pswp-width="{{ $image.Width }}" data-pswp-height="{{ $image.Height }}" target="_blank" rel="noopener">
       <img src="{{ $thumb.RelPermalink }}" data-photo-wall-src="{{ $image.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="{{ $alt }}" loading="lazy" decoding="async">
     </a>
-    {{ with .Caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+    {{ if or .Caption $credit }}<figcaption>{{ with .Caption }}{{ . }}{{ end }}{{ $credit }}</figcaption>{{ end }}
   </figure>
 {{- end -}}

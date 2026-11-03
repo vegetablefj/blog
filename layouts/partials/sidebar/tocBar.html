@@ -1,0 +1,11 @@
+{{ $isBirdDirectory := eq .Layout "bird-directory" }}
+<div class="sidebar-toc{{ if $isBirdDirectory }} bird-directory-toc{{ end }}">
+  <h3 class="toc-title">{{ i18n "toc" }}</h3>
+  <div class="{{ if $isBirdDirectory }}bird-directory-toc-wrapper{{ else }}sidebar-toc-wrapper{{ end }} toc-div-class">
+    {{ if $isBirdDirectory }}
+      {{ .Fragments.ToHTML 2 4 true | safeHTML }}
+    {{ else }}
+      {{ .TableOfContents }}
+    {{ end }}
+  </div>
+</div>

@@ -1,0 +1,16 @@
+{{- if or .author .source .license .changes -}}
+<small class="image-credit" style="display: block; font-size: .85em; line-height: 1.6; overflow-wrap: anywhere">
+  {{- with .author -}}
+    作者：{{ if $.author_url }}<a href="{{ $.author_url }}" target="_blank" rel="noopener">{{ . }}</a>{{ else }}{{ . }}{{ end }}
+  {{- end -}}
+  {{- with .source -}}
+    {{ if $.author }} · {{ end }}<a href="{{ . }}" target="_blank" rel="noopener">{{ $.source_title | default "来源" }}</a>
+  {{- end -}}
+  {{- with .license -}}
+    {{ if or $.author $.source }} · {{ end }}{{ if $.license_url }}<a href="{{ $.license_url }}" target="_blank" rel="license noopener">{{ . }}</a>{{ else }}{{ . }}{{ end }}
+  {{- end -}}
+  {{- with .changes -}}
+    {{ if or $.author $.source $.license }} · {{ end }}{{ . }}
+  {{- end -}}
+</small>
+{{- end -}}

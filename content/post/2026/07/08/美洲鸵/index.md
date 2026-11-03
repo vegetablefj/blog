@@ -3,7 +3,7 @@ title: 美洲鸵属
 description: (古颚下纲-南方古颚类-)美洲鸵目-美洲鸵科
 
 date: 2026-07-08T23:00:30+08:00
-lastmod: 2026-07-08T23:00:30+08:00
+lastmod: 2026-11-03
 
 math: true
 mermaid: false
@@ -22,34 +22,67 @@ tags:
 
 *封面为wiki上的大美洲鸵Rhea americana*
 
-美洲鸵目Rheiformes和一些其他目共同属于感觉没什么人在意这一层的南方古颚类Notopalaeognathae. 我没有考证为什么要分出这么个类来, 至少按照现存的物种来理解, 就是鸵鸟目之外的古颚下纲哥们. 反正都是走地鸡, 许多都是老资历.
+{{< image-credit
+  author="Adrian Pingstone"
+  author_url="https://commons.wikimedia.org/wiki/User:Arpingstone"
+  source="https://commons.wikimedia.org/wiki/File:Greater_rhea_pair_arp.jpg"
+  source_title="Wikimedia Commons"
+  license="公有领域"
+  license_url="https://commons.wikimedia.org/wiki/File:Greater_rhea_pair_arp.jpg#Licensing"
+>}}
 
-美洲鸵目中现存的物种全部位于美洲鸵科Rheidae美洲鸵属Rhea. 有一些已经灭绝的哥们在归属上有些许争议, 我们不表.
+美洲鸵目Rheiformes和一些其他目共同属于感觉没什么人在意这一层的南方古颚类Notopalaeognathae. 我没有考证为什么要分出这么个类来, 至少按照现存的物种来理解, 就是鸵鸟目之外的古颚下纲哥们. 许多都是走地鸡, 也有不少老资历.
 
-美洲鸵(即美洲鸵属)是大型不会飞的鸟, 羽毛呈灰褐色, 脚及颈都很长, 与鸵鸟类似. 成年身高可达1.7米, 重达40公斤. 双翼很大, 奔走时会展开双翼. 有三趾. 跗骨前有一块水平的骨板. 可以通过膨胀泄殖腔来储存尿液.
+美洲鸵目中现存的两个种全部位于美洲鸵科Rheidae美洲鸵属Rhea. 有一些已经灭绝的哥们在归属上有些许争议, 我们不表.
+
+美洲鸵(即美洲鸵属)是大型不会飞的鸟, 羽毛呈灰褐色, 脚及颈都很长, 与鸵鸟类似. 每只脚有三趾. 双翼较大, 奔走时会展开, 帮助保持平衡和转向.[^greater]
 
 值得一提的是, 美洲鸵在中文中有时也称作鶆䴈.
 
-这两种哥们看起来比鸵鸟属的哥们要敦实和灰一些. 自然环境下永远不会同时见到它们, 理论上没有区分的必要(((.
+这两种哥们看起来比鸵鸟属的哥们要敦实和灰一些.
 
 ## 大美洲鸵 Rhea americana
 
-大美洲鸵, 又被称为鶆䴈/三趾鸵鸟, 分布于南美洲, 是美洲最大的鸟类, 不能飞行, 脚上有3枚向前的趾. 分布于南美洲广阔的草原上, 体长约150公分, 食物为植物种子、根和昆虫.
+大美洲鸵, 又被称为鶆䴈/三趾鸵鸟, 是美洲最大的鸟类. 分布于南美洲的草原和半干旱灌丛, 食物以植物为主, 也吃昆虫和小型脊椎动物.[^greater]
 
-{{< figure src="/blog/post/2026/07/08/美洲鸵/1.jpg"   width="500px" >}}
+{{< photo
+  src="1.jpg"
+  width="500"
+  alt="德国慕尼黑海拉布伦动物园中行走的大美洲鸵"
+  caption="大美洲鸵 Rhea americana"
+  author="Rufus46"
+  author_url="https://commons.wikimedia.org/wiki/User:Rufus46"
+  source="https://commons.wikimedia.org/wiki/File:Nandu_Rhea_americana_Tierpark_Hellabrunn-1.jpg"
+  source_title="Wikimedia Commons"
+  license="CC BY-SA 3.0"
+  license_url="https://creativecommons.org/licenses/by-sa/3.0/"
+>}}
 
-喜欢结群生活, 具有一雄多雌婚配制度, 两性的羽色十分相似. 雄鸟大于雌鸟, 1只雄鸟和5至6只雌鸟在一起, 同它们的后代结成20至30只的大群生活.
-
-大美洲鸵奔跑时的最高时速可达70公里, 但由于他们不擅长长跑, 所以以此速度持续奔跑最多二十分钟, 就会因为疲累而卧在地上休息.
+喜欢结群生活, 两性的羽色十分相似, 雄鸟通常比雌鸟大. 繁殖时, 雄鸟会与多只雌鸟交配, 几只雌鸟将蛋产在同一个巢里, 由雄鸟孵卵和带雏.[^greater]
 
 ## 小美洲鸵 Rhea pennata
 
 又名达尔文鶆䴈, 比大美洲鸵小一些, 分布在南美洲西部和南部.
 
-{{< figure src="/blog/post/2026/07/08/美洲鸵/2.jpg"   width="300px" >}}
+{{< photo
+  src="2.jpg"
+  width="300"
+  alt="两只小美洲鸵站在低矮植被之间"
+  caption="小美洲鸵 Rhea pennata"
+  author="Franz Xaver"
+  author_url="https://commons.wikimedia.org/wiki/User:Franz_Xaver"
+  source="https://commons.wikimedia.org/wiki/File:Darwin-Nandus.jpg"
+  source_title="Wikimedia Commons"
+  license="CC BY-SA 3.0"
+  license_url="https://creativecommons.org/licenses/by-sa/3.0/"
+>}}
 
-小美洲鸵高90-100厘米, 重15-25公斤. 它们的翼较其他鸵鸟大, 故奔跑得很好. 它们最高速可达每小时60公里, 可以脱离掠食者的追捕. 它们的爪很锋利. 它们的羽毛有褐色及白色的斑点, 上肢也有羽毛.
+小美洲鸵身高约一米, 褐色羽毛上有白色斑点. 双翼较长, 奔跑时有助于转向.
 
-雄鸟在孵蛋时会特别带有攻击性, 所以雌鸟会在巢边产后来的蛋, 而非在巢内. 大部分的蛋都是由雄鸟搬入巢内, 但有些也会留在巢外变坏, 吸引苍蝇, 雄鸟与出生的雏鸟会吃这些苍蝇. 孵化期约为30-44天, 每胎约产5-55颗蛋(这个数据是真的吗?). 蛋约有87-126毫米大, 呈黄绿色. 在繁殖期以外, 小美洲鸵较为社交性, 会以5-30只鸟聚居.
+它们同样由多只雌鸟共巢产卵, 雄鸟负责孵化和照顾雏鸟, 在护巢和带雏时会很有攻击性. 繁殖期之外常结群活动.[^lesser]
 
-小美洲鸵栖息在巴塔哥尼亚及安地斯山脉平原的辽阔丛林, 横跨阿根廷、玻利维亚、智利及秘鲁.
+小美洲鸵栖息在巴塔哥尼亚的草原、灌丛和安第斯山脉的高原地带, 分布跨越阿根廷、玻利维亚、智利及秘鲁.[^lesser]
+
+[^greater]: [史密森尼国家动物园: Greater rhea](https://www.nationalzoo.si.edu/animals/greater-rhea).
+
+[^lesser]: [莱比锡动物园: Lesser rhea](https://www.zoo-leipzig.de/en/animal/lesser-rhea/)、[欧登塞动物园: Darwin's rhea](https://www.odensezoo.dk/en/visit-zoo/animals/darwins-rhea/).

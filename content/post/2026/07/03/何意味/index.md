@@ -3,7 +3,7 @@ title: 鸵鸟属
 description: (古颚下纲-)鸵鸟目-鸵鸟科
 
 date: 2026-07-03T00:47:05+08:00
-lastmod: 2026-07-20
+lastmod: 2026-11-03
 
 math: true
 mermaid: false
@@ -20,64 +20,107 @@ tags:
 ---
 # 鸵鸟属
 
-*封面为wiki上展示的额尔吉林鸟Ergilornis rapidus复原图*
+*封面为额尔吉林鸟属 Ergilornis 的生境复原图。*
+
+{{< image-credit
+  author="Countmustard"
+  source="https://commons.wikimedia.org/wiki/File:Ergilornis.jpg"
+  source_title="Wikimedia Commons：Ergilornis.jpg"
+  license="CC BY-SA 4.0"
+  license_url="https://creativecommons.org/licenses/by-sa/4.0/"
+>}}
 
 ~~突然发现封面和标题放在一起很迷惑, 但是懒得改了~~
 
 这是鸟类分类相关的第一篇blog, 由于前面的知识相关太难抄了, 于是我们先来简单的开展一下分类.
 
-古颚下纲Palaeognathae, 又称古颚类, 平胸小纲或平胸总目. 其中现存的鸟类被统称为"走禽"，在分布上局限于南半球的非洲、南美洲和大洋洲地区. 它们相当适应于地面上的生活，身材较为高大、双脚有力、相当善于奔跑.
+古颚下纲Palaeognathae和新颚类一起构成现生鸟类的两大支系. 鸵鸟、美洲鸵、鹤鸵、鸸鹋、几维和会飞的䳍都在这里, 还有已经灭绝的恐鸟和象鸟.
 
-古颚下纲在鸟类中是较早演化出的一种鸟类，其胸骨扁平、不具龙骨突，附着于上的动翼肌亦退化，锁骨退化或消失，也不具有尾综骨及尾脂腺. 除𮭥形目外都不具有飞行功能，常被说成是一类不会飞行的鸟。
+鸵鸟这一支在古颚类中分出来得较早. 古颚类在演化中曾多次失去飞行能力.[^phylogeny]
 
-鸵鸟目Struthioniformes是古颚下纲中的一个目. 现存的两种物种全部属于鸵鸟科Struthionidae鸵鸟属Struthio.
+鸵鸟目Struthioniformes是古颚类中的一个目. 现存两个种, 都属于鸵鸟科Struthionidae鸵鸟属Struthio.[^taxonomy]
 
-{{< figure src="/blog/post/2026/07/03/何意味/1.png"   width="500px" >}}
+{{< photo
+  src="1.png"
+  width="500"
+  alt="中文维基百科鸵鸟目分类列表的局部截图"
+  caption="鸵鸟目的分类列表（维基百科页面局部截图）"
+  author="中文维基百科贡献者"
+  author_url="https://zh.wikipedia.org/w/index.php?title=鸵鸟目&action=history"
+  source="https://zh.wikipedia.org/wiki/鸵鸟目#分类"
+  source_title="维基百科《鸵鸟目》"
+  license="CC BY-SA 4.0"
+  license_url="https://creativecommons.org/licenses/by-sa/4.0/"
+  changes="截取页面局部"
+>}}
 
-上图是wiki上关于鸵鸟目的大致分类. 这里的分类并不精确到种, 许多分类应该也尚存争议. 哪怕是鸵鸟科中, 也有东方鸵鸟属Orientornis和厚鸵属Pachystruthio这两个已经灭绝了的属, 以及鸵鸟属下边7个已经灭绝的种. 我们没有精力深究这些老资历, 我们只关注现存的两个物种.
+上图是wiki上关于鸵鸟目的大致分类, 里边还列了东方鸵鸟属Orientornis、厚鸵属Pachystruthio等已经灭绝的类群. 我们没有精力深究这些老资历, 我们只关注现存的两个物种.
+
+中国过去也有过鸵鸟, 周口店等遗址出土过鸵鸟蛋壳.[^fossil]
 
 当然, 就现实层面而言, 鸵鸟实在是太特殊的一种鸟类. 一生中见到鸵鸟的机会不多, 更不用说在自然环境下. 其他大型走地鸡也差不多. 这种层面的整理对辨识也未必有什么帮助, 不过出于严密我们还是为这些大鸟写上几笔.
 
-*实际上也就是从wiki上复制了些觉得有趣的选段. 希望以后也能做到取舍有度吧.*
+*主要还是从wiki上挑了些觉得有趣的选段, 再补一点别的资料. 希望以后也能做到取舍有度吧.*
 
 ## 鸵鸟 Struthio camelus
 
-鸵鸟, 又叫做非洲鸵鸟, 是世界上现存体型最大的鸟类. 雄鸟可以高达2.5米，最大体重可达155公斤.
+鸵鸟, 又叫做非洲鸵鸟, 是世界上现存体型最大的鸟类. 成年雄鸟站直能超过两米, 体重也可以超过一百公斤. 下面这张图里, 黑色配白色羽毛的是雄鸟, 灰褐色的是雌鸟.[^ostrich]
 
-{{< figure src="/blog/post/2026/07/03/何意味/2.jpg"   width="400px" >}}
+{{< photo
+  src="2.jpg"
+  width="400"
+  alt="埃托沙国家公园的一雄两雌非洲鸵鸟，雄鸟在左"
+  caption="非洲鸵鸟 Struthio camelus（一雄两雌）"
+  author="Yathin S Krishnappa"
+  author_url="https://commons.wikimedia.org/wiki/User:Yathin_sk"
+  source="https://commons.wikimedia.org/wiki/File:Struthio_camelus_-_Etosha_2014_(3).jpg"
+  source_title="Wikimedia Commons"
+  license="CC BY-SA 4.0"
+  license_url="https://creativecommons.org/licenses/by-sa/4.0/"
+  changes="对比度调整：Materialscientist"
+>}}
 
-鸵鸟产于非洲稀树草原，共有五个亚种及一种驯养鸵鸟种，其中阿拉伯鸵鸟S.c.syriacus已绝种.
+非洲鸵鸟生活在非洲的草原、稀树草原和半荒漠等开阔地带. 现生亚种有北非鸵鸟S. c. camelus、马赛鸵鸟S. c. massaicus和南非鸵鸟S. c. australis, 另有已经灭绝的阿拉伯鸵鸟S. c. syriacus.[^taxonomy]
 
-远古时期中国分布有鸵鸟，山顶洞人、许昌人等遗址中皆有发现鸵鸟蛋壳，后来消失.
+头小, 脖子和腿都很长, 每只脚只有两个趾, 是现生鸟类中唯一的两趾类型. 美洲鸵、鹤鸵和鸸鹋都是三趾. 鸵鸟善于奔跑, 遇到危险时也会向前踢, 大趾上的长爪是很有力的武器.[^ostrich]
 
-头比例小，脑约重40公克，颈长约90公分，腿长约1米，足具2趾，由第3趾和第4趾演化而成，是目前世界上唯一的2趾鸟.
+鸵鸟眼睛很大, 视力好, 长睫毛和瞬膜可以阻挡沙尘. 它们常和斑马、羚羊等食草动物出现在同一片地方, 食物以植物为主, 也吃昆虫和小型动物.[^ostrich]
 
-鸵鸟的巨大眼球，带着浓黑的眼睫毛，是陆地生物中最大的眼球. 鸵鸟视力佳，一个眼球重达60公克，可看清3至5公里远的东西，其瞬膜（第3眼睑）有阻挡沙砾及保护眼睛之功能.
+几只雌鸟会把蛋产在同一个巢里, 由雄鸟和占优势的雌鸟孵卵. 一般是雌鸟上白班, 雄鸟上夜班. 成鸟还会用翅膀给雏鸟遮阳挡雨.[^ostrich]
 
-鸵鸟过着游牧般的群居生活，一般5-50只左右，在他们旁边常常伴有其它食草动物，比如斑马，羚羊. 鸵鸟属于草食性单胃禽类，他们主要吃浆果和肉茎植物，也会吃动物如蝗虫，蚂蚱.
-
-啄食动作占鸵鸟每日行为很大的部分，一方面为了进食，另一方面能使鸵鸟了解周围环境. 鸵鸟对鲜艳物体特别感到兴趣，鸵鸟每日的重复动作可达2000~4000次，此种行为对圈饲鸵鸟有时会发生胃食滞的问题，故对幼鸟就应教导其哪些可采食和如何采食.
-
-鸵鸟其实是非常胆小的动物，当掠食者缓慢的靠近它们，鸵鸟会毫不畏惧的向前反击，但当掠食者高速冲向他们，鸵鸟会害怕的跑给敌人追.
-
-当受攻击走投无路或面对较弱小的敌人时，鸵鸟会用腿向前踢，但不会向后或侧踢，其中最大的趾头有一长趾甲，在攻击敌人时容易造成敌人的伤害，而且其准确性及力量都很高.
-
-鸵鸟是天生敏感警觉的群居动物，因此鸵鸟群在进食或饮水时，常见至少有1只鸵鸟警戒，当其它鸵鸟抬头时，负责警戒的鸵鸟才低头饮水. 同群鸵鸟一般没有进食等级制度，只要有空间，鸵鸟之间极少表现出因进食而互相攻击的行为.
-
-与普遍流传的误解不同，鸵鸟其实是不会把自己的头埋到沙子里来躲避危险的.
-
-鸵鸟肉可作食用，外观及口感类似精瘦牛肉，鸵鸟肉含必需氨基酸含量高，较低热量、较低胆固醇，另外亦含丰富的铁、及锌及多元不饱和脂肪酸. 铁含量比牛肉还高，而鸵鸟肉的锌含量是蚬的17倍，生蚝的2倍. 鸵鸟蛋亦是受欢迎且常见的食用蛋.
+"把头埋在沙子里"这个说法, 可能和它们低头翻动巢里的蛋、将脖子贴近地面等动作有关.[^ostrich]
 
 ## 灰颈鸵鸟 Struthio molybdophanes
 
-灰颈鸵鸟, 台湾作索马利亚鸵鸟, 为野生鸵鸟中最高的, 曾归类为鸵鸟的亚种之一, 从2014年开始被视为独立的物种.
+灰颈鸵鸟, 台湾作索马利亚鸵鸟, 原为非洲鸵鸟的亚种, 2014年起被单列为种.[^taxonomy]
 
-灰颈鸵鸟大致上外观与鸵鸟类似，头冠与北非鸵鸟相似，但有一宽阔白色颈环，颈部及腿部皮肤呈蓝灰色. 公鸟羽毛为黑到白, 母鸟为灰色.
+雄鸟的颈和腿呈蓝灰色, 繁殖期蓝色更鲜明. 分布相邻的马赛鸵鸟则偏粉红, 繁殖期会变红. 两种都是雄鸟黑白配色, 雌鸟灰褐色.[^somali]
 
-{{< figure src="/blog/post/2026/07/03/何意味/3.jpg"   width="400px" >}}
+{{< photo
+  src="3.jpg"
+  width="400"
+  alt="肯尼亚 Lewa Conservancy 草地上的灰颈鸵鸟雄鸟"
+  caption="灰颈鸵鸟 Struthio molybdophanes（雄鸟）"
+  author="Christiaan Kooyman"
+  author_url="https://commons.wikimedia.org/wiki/User:ChriKo"
+  source="https://commons.wikimedia.org/wiki/File:Somali_ostrich.jpg"
+  source_title="Wikimedia Commons"
+  license="公有领域（PD-self）"
+  license_url="https://commons.wikimedia.org/wiki/File:Somali_ostrich.jpg#Licensing"
+>}}
 
-灰颈鸵鸟主要分布在非洲之角(即东北非, 大致相当于索马里半岛)，也有一些分布在索马里、埃塞俄比亚、肯尼亚等地区.
+灰颈鸵鸟主要分布在非洲之角一带, 包括索马里、埃塞俄比亚、肯尼亚等地, 常在灌丛较密的地方活动, 啄食树木和灌丛的叶子.[^somali]
 
 ~~这辈子真有机会见到这种东西吗?需要会区分这哥们和非洲鸵鸟吗?~~
 
 ~~能够感受到wiki上许多中文内容都是从繁体转换过来, 语气和一些术语都和习惯的很不一样~~
+
+[^phylogeny]: Kück与Suh, 2026: [Persistent conflict in palaeognath phylogeny revealed by quartet-based and ML analyses](https://doi.org/10.1186/s12983-026-00599-1).
+
+[^taxonomy]: 亚种及分类沿革参考[EAZA北非鸵鸟指南](https://eazawebsite-prod.s3.nl-ams.scw.cloud/uploads/North_ostrich_BPG_c731b4a332.pdf), 2025, 第7页.
+
+[^fossil]: [中国猿人化石产地鸵鸟蛋壳化石的显微结构和氨基酸组成](https://www.ivpp.cas.cn/cbw/gjzdwxb/xbwzxz/200904/t20090402_2386278.html), 1981.
+
+[^ostrich]: [史密森尼国家动物园: Ostrich](https://www.nationalzoo.si.edu/animals/ostrich)、[圣迭戈动物园: Ostrich](https://animals.sandiegozoo.org/animals/ostrich).
+
+[^somali]: [Birds of the Horn of Africa（预览）](https://api.pageplace.de/preview/DT0400.9781408135761_A23937764/preview-9781408135761_A23937764.pdf)中的两种鸵鸟介绍; 马赛鸵鸟的肤色另参考[FAO: Ostrich Production Systems](https://www.fao.org/4/x2370e/x2370e.pdf)的形态比较部分.

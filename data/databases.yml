@@ -54,3 +54,7 @@
   url: https://konachan.net/
   desc: 二次元壁纸
   image: https://konachan.net/favicon.ico
+- name: 鸟类谱系速查器
+  url: https://adeliegrey.github.io/bird-phylogeny-explorer/
+  desc: 鸟类分类与谱系查询
+  image: https://adeliegrey.github.io/bird-phylogeny-explorer/assets/wagtail-icon.png?v=2

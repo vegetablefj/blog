@@ -1,0 +1,9 @@
+{{ define "main" }}
+  {{ $css := resources.Get "css/bird-directory.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />
+  <div class="bird-directory">
+    {{ partial "article.html" . }}
+  </div>
+  {{ $js := resources.Get "js/bird-directory.js" | js.Build (dict "minify" true "targetPath" "js/bird-directory.js") | fingerprint }}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" data-pjax></script>
+{{ end }}
