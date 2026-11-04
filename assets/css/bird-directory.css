@@ -205,6 +205,13 @@
   padding-left: 1.1em;
 }
 
+.bird-directory .directory-overview .directory-order-content > p {
+  margin: 0.5em 0 0.7em var(--directory-indent);
+  padding: 0;
+  border-radius: 0;
+  background: none;
+}
+
 .bird-directory .directory-controls button:focus-visible,
 .bird-directory .directory-order > summary:focus-visible {
   outline: 2px solid var(--color-link);

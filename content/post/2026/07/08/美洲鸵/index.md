@@ -1,6 +1,6 @@
 ---
 title: 美洲鸵属
-description: (古颚下纲-南方古颚类-)美洲鸵目-美洲鸵科
+description: (古颚类)美洲鸵目-美洲鸵科
 
 date: 2026-07-08T23:00:30+08:00
 lastmod: 2026-11-03
@@ -31,7 +31,7 @@ tags:
   license_url="https://commons.wikimedia.org/wiki/File:Greater_rhea_pair_arp.jpg#Licensing"
 >}}
 
-美洲鸵目Rheiformes和一些其他目共同属于感觉没什么人在意这一层的南方古颚类Notopalaeognathae. 我没有考证为什么要分出这么个类来, 至少按照现存的物种来理解, 就是鸵鸟目之外的古颚下纲哥们. 许多都是走地鸡, 也有不少老资历.
+美洲鸵目Rheiformes属于南方古颚类Notopalaeognathae. 按照现存的物种来理解, 就是鸵鸟之外的古颚类哥们, 包括会飞的䳍. 鸵鸟这一支先分了出去, 剩下几支的亲缘关系还没完全理顺.[^phylogeny] 许多都是走地鸡, 也有不少老资历.
 
 美洲鸵目中现存的两个种全部位于美洲鸵科Rheidae美洲鸵属Rhea. 有一些已经灭绝的哥们在归属上有些许争议, 我们不表.
 
@@ -82,6 +82,8 @@ tags:
 它们同样由多只雌鸟共巢产卵, 雄鸟负责孵化和照顾雏鸟, 在护巢和带雏时会很有攻击性. 繁殖期之外常结群活动.[^lesser]
 
 小美洲鸵栖息在巴塔哥尼亚的草原、灌丛和安第斯山脉的高原地带, 分布跨越阿根廷、玻利维亚、智利及秘鲁.[^lesser]
+
+[^phylogeny]: Kück与Suh, 2026: [Persistent conflict in palaeognath phylogeny revealed by quartet-based and ML analyses](https://doi.org/10.1186/s12983-026-00599-1).
 
 [^greater]: [史密森尼国家动物园: Greater rhea](https://www.nationalzoo.si.edu/animals/greater-rhea).
 

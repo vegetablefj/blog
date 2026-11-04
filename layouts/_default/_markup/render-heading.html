@@ -1,10 +1,12 @@
 <h{{ .Level }} id="{{ .Anchor | safeURL }}">
   <a class="header-anchor" href="#{{ .Anchor | safeURL }}"></a>
-  {{- if and (eq .Page.Layout "bird-directory") (ge .Level 3) (findRE `\s+[A-Za-z]+†?$` .PlainText) -}}
+  <span class="heading-text">
+  {{- if and (eq .Page.Layout "bird-directory") (ge .Level 3) (findRE `\s+[A-Za-z]+†?$` .PlainText) (not (findRE `<a\s` .Text)) -}}
     {{- $name := replaceRE `\s+[A-Za-z]+†?$` "" .PlainText -}}
     {{- $latin := replaceRE `^.*\s+([A-Za-z]+†?)$` "$1" .PlainText -}}
     {{- $name }} <span class="taxonomy-latin">{{ $latin }}</span>
   {{- else -}}
     {{- .Text | safeHTML -}}
   {{- end -}}
+  </span>
 </h{{ .Level }}>

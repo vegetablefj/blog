@@ -1,6 +1,6 @@
 ---
 title: 鹤鸵属
-description: (古颚下纲-南方古颚类-新平胸类-)鹤鸵目-鹤鸵科
+description: (古颚类)鹤鸵目-鹤鸵科
 
 date: 2026-07-20T02:31:46+08:00
 lastmod: 2026-11-03
@@ -35,9 +35,9 @@ tags:
 
 在wiki的模板页面看到, 鸟类属于主龙类中的兽脚类恐龙, 进一步属于手盗龙类, 古颚类则是鸟类内部的一个分支. 看起来生物分类总是这样有点无限可分的感觉. 这些演化支就先不逐个深究了, 至少希望文章描述中的括号能保持一致吧.
 
-新平胸类Novaeratitae是古颚类中的一个演化支, 包含鹤鸵、鸸鹋、几维以及已经灭绝的隆鸟. 马达加斯加的隆鸟与新西兰的几维亲缘关系很近.
+一些研究把鹤鸵、鸸鹋、几维和已经灭绝的[象鸟](https://zh.wikipedia.org/wiki/象鸟)归为新平胸类Novaeratitae, 不过几维、美洲鸵等分支的位置在不同研究中还不一致.[^phylogeny] 马达加斯加的象鸟与新西兰的几维亲缘关系很近.
 
-传统的平胸类ratites包括鸵鸟、美洲鸵、鹤鸵、鸸鹋、几维等不飞行的古颚类, 古颚类中还有会飞的䳍类. 还顺便发现相关的内容里面英文wiki比中文翔实太多了www.
+传统的平胸类ratites把鸵鸟、美洲鸵、鹤鸵、鸸鹋、几维等不飞行的古颚类放在一起. 在系统树上, 会飞的䳍也嵌在这些分支之间, 所以传统平胸类是一个并系群.[^phylogeny] 还顺便发现相关的内容里面英文wiki比中文翔实太多了www.
 
 鹤鸵目Casuariiformes的现生成员包括鹤鸵属Casuarius的三种鹤鸵, 以及鸸鹋属Dromaius的鸸鹋, 都归在鹤鸵科Casuariidae中. 今天的主角是鹤鸵属.
 
@@ -127,6 +127,7 @@ tags:
 
 *在这种哥们不多的属, 除去代表性的物种, 其实能讲的就不多了. 事实上大家也真的就是更关心较为代表性的物种一些.*
 
+[^phylogeny]: Kück与Suh, 2026: [Persistent conflict in palaeognath phylogeny revealed by quartet-based and ML analyses](https://doi.org/10.1186/s12983-026-00599-1).
 [^cassowary]: [澳大利亚博物馆：Southern Cassowary](https://australian.museum/learn/animals/birds/southern-cassowary/).
 [^species]: [圣迭戈动物园：Cassowary](https://animals.sandiegozoo.org/animals/cassowary).
 [^casque]: Eastick等, 2019, [Cassowary casques act as thermal windows](https://www.nature.com/articles/s41598-019-38780-8).
