@@ -58,3 +58,7 @@
   url: https://adeliegrey.github.io/bird-phylogeny-explorer/
   desc: 鸟类分类与谱系查询
   image: https://adeliegrey.github.io/bird-phylogeny-explorer/assets/wagtail-icon.png?v=2
+- name: 斯坦福哲学百科
+  url: https://plato.stanford.edu/
+  desc: 哲学及相关领域的学术百科
+  image: https://plato.stanford.edu/favicon.ico
