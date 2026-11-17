@@ -54,6 +54,53 @@ injector:
         opacity: 1;
         text-decoration: underline !important;
       }
+      .article-entry details.puzzle-answer,
+      .article-entry details.puzzle-answer:hover {
+        margin: 0.5rem 0 1.25rem;
+        padding: 0;
+        background: none;
+        box-shadow: none;
+      }
+      .article-entry .puzzle-answer > summary {
+        width: fit-content;
+        padding: 0.3rem 0.7rem;
+        border-radius: 0.5rem;
+        background-color: var(--red-5-5);
+        font-size: 0.95em;
+      }
+      .article-entry .puzzle-answer > summary:hover,
+      .article-entry .puzzle-answer[open] > summary {
+        background-color: var(--red-5);
+      }
+      .article-entry .puzzle-answer > p {
+        box-sizing: border-box;
+        width: fit-content;
+        max-width: min(100%, 700px);
+        margin: 0.6rem 0 0;
+        padding: 0.55rem 0.8rem;
+        overflow-wrap: anywhere;
+      }
+      .post-wrapper .post-title {
+        white-space: normal;
+        overflow-wrap: anywhere;
+        text-overflow: clip;
+      }
+      .post-wrapper :is(.post-wrap-left, .post-wrap-right) {
+        height: auto;
+        min-height: 230px;
+      }
+      .post-wrapper .post-info {
+        height: auto;
+        min-width: 0;
+      }
+      @media screen and (max-width: 767px) {
+        .post-wrapper :is(.post-wrap-left, .post-wrap-right) {
+          min-height: 400px;
+        }
+        .post-wrapper :is(.post-cover-left, .post-cover-right) {
+          height: 180px;
+        }
+      }
     </style>
   body_begin: # Inject code snippet right after <body>
   body_end: # Inject code snippet right before </body>

@@ -3,7 +3,7 @@
 <div class="friend-wrap" data-aos="zoom-in">
   {{ range $links }}
     <div class="friend-item-wrap">
-      <a href="{{ .url }}" rel="noopener external nofollow noreferrer" target="_blank"></a>
+      <a href="{{ .url }}" aria-label="{{ .name }}" rel="noopener external nofollow noreferrer" target="_blank"></a>
       <div class="friend-icon-wrap">
         <div class="friend-icon">
           <img
@@ -19,7 +19,7 @@
           {{ .name }}
         </div>
         <div class="friend-desc">
-          {{ .desc }}
+          {{ .desc }}{{ with .see_also }}, 亦见 <a href="{{ .url }}" rel="noopener external nofollow noreferrer" target="_blank">{{ .name }}</a>{{ end }}
         </div>
       </div>
     </div>

@@ -70,11 +70,11 @@ params:
       rotate: true
       mask: true # whether to use the images as a mask
   widgets:
+  - random_post
+  - photo_wall
   - category
   - tag
   #- tagcloud
-  - random_post
-  - photo_wall
   
   reimu_cursor:
     enable: true
