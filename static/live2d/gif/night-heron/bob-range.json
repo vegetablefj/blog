@@ -1,0 +1,29 @@
+{
+  "type": "gif",
+  "image": "./bob.png",
+  "frameWidth": 197,
+  "frameHeight": 364,
+  "columns": 5,
+  "displayScale": 0.7,
+  "durations": [
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50
+  ],
+  "mode": "range-follow",
+  "startFrame": 6,
+  "endFrame": 0
+}

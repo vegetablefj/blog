@@ -48,7 +48,7 @@ const loadModel = `async loadModel(message = "", modelId = this.modelId, outfitI
     url = resolveManifest(this.cdnPath, target);
     manifest = await this.fetchWithCache(url);
     if (!manifest) return false;
-    if (this.checkModelVersion(manifest) === 2) {
+    if (manifest.type !== "gif" && this.checkModelVersion(manifest) === 2) {
       const textures = await this.loadTextureCache(target);
       const selected = textures[outfitId];
       if (selected) manifest = { ...manifest, textures: typeof selected === "string" ? [selected] : selected };
@@ -95,7 +95,8 @@ const loadOutfit = `async loadRandTexture(success = "", failure = "") {
     return false;
   }
   const next = pickNextIndex(count, this.modelTexturesId, "outfit");
-  return this.changeSelection(this.modelId, next, reaction ?? success);
+  const outfitName = this.modelList?.outfitNames?.[this.dialogueId]?.[next];
+  return this.changeSelection(this.modelId, next, reaction ?? outfitName ?? success);
 }`;
 
 const loadNextModel = `async loadNextModel() {
@@ -232,7 +233,7 @@ export function patchRuntimeScenes(source) {
   patched = replaceOnce(patched, 'null===(e=document.getElementById("waifu"))||void 0===e||e.classList.add("waifu-active")}),0)',
     'null===(e=document.getElementById("waifu"))||void 0===e||e.classList.add("waifu-active");showSpecialScene(activeDialogueManager,"reappear",void 0,4e3,11)}),0)', "same-page restoration");
 
-  const pickerImport = 'import { pickDialogue, pickSpecialDialogue, pickToolbarDialogue, tabReturnDialogue } from "./dialogue-picker.js?v=production-1";';
+  const pickerImport = 'import { pickDialogue, pickSpecialDialogue, pickToolbarDialogue, tabReturnDialogue } from "./dialogue-picker.js?v=production-7";';
   const pickerPattern = /import \{ pickDialogue \} from "[^"\n]*dialogue-picker\.js(?:\?[^"\n]*)?";\n?/;
   if (pickerPattern.test(patched)) patched = patched.replace(pickerPattern, pickerImport + "\n");
   else patched = pickerImport + "\n" + patched;

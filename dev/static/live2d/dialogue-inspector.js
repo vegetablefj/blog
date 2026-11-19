@@ -7,6 +7,9 @@ const names = {
   mutsumi: "若叶睦",
   sakiko: "丰川祥子",
   murasame: "丛雨",
+  "friends-drink": "朋友的酒",
+  yao: "遥",
+  "night-heron": "夜鹭",
   common: "公共", all: "通用",
 };
 const statusNames = { active: "在用", reference: "参考" };
@@ -315,6 +318,9 @@ async function start() {
   });
   for (const [id, outfits] of Object.entries(candidates.presets)) {
     if (roleIds.includes(id)) addLines("template", id, "换装名称", outfits.map(outfit => outfit.label));
+  }
+  for (const [id, outfits] of Object.entries(registry.outfitNames ?? {})) {
+    if (roleIds.includes(id)) addLines("template", id, "换装名称", outfits);
   }
 
   for (const tab of tabs) {

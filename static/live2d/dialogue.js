@@ -1,8 +1,8 @@
 export const idleDialogueWeights = { character: 2, common: 1 };
 export const tabReturnDialogue = { minimumAwayMs: 5 * 60 * 1000, text: "欢迎回来～" };
 export const toolbarDialogue = {
-  "#waifu-tool-hitokoto": { scene: "hitokotoHover", text: "抽一句『一言』" },
-  "#waifu-tool-asteroids": { scene: "asteroidsHover", text: "玩飞机小游戏" },
+  "#waifu-tool-hitokoto": { scene: "hitokotoHover", text: "『一言』" },
+  "#waifu-tool-asteroids": { scene: "asteroidsHover", text: "来点小游戏" },
   "#waifu-tool-switch-model": { scene: "switchModelHover", text: "切换角色" },
   "#waifu-tool-switch-texture": { scene: "switchOutfitHover", text: "换装" },
   "#waifu-tool-photo": { scene: "photoHover", text: "拍照" },
@@ -124,6 +124,7 @@ export const commonDialogue = [
   "金坷垃好处都有啥？谁说对了就给他！",
   "はちみーを舐めると 足が速くなる",
   craftingBagDialogue,
+  "我头上怎么有个框?",
 ];
 
 const mygoLines = {
@@ -213,6 +214,35 @@ export function getPioDialogue(template) {
   );
   return [idle[0], idle[2], idle[4], ...prompts].filter(Boolean);
 }
+
+// 用户提供的歌词。重复段落只收一次，衬词可单独抽取。
+const friendsWineLines = {
+  yesterday: "昨日一去不复回～",
+  firstRefrain: "欧耶耶！",
+  happiness: "开心比什么都贵～",
+  spilledWater: "覆水不能再收回～",
+  secondRefrain: "哦耶耶！",
+  flowers: "桃花谢了有玫瑰～",
+  fullLine: "就像朋友的这杯烈酒烫在我心上~温暖我凡事别再放~",
+  cheer: "耶！",
+  past: "往事后不后悔~慢慢去体会～",
+  precious: "此刻朋友这杯酒最珍贵！",
+  toast: "快把酒满上~干了这杯大声歌唱～",
+  tonight: "好朋友~好朋友~今宵多欢畅～",
+  ideals: "理想改变了我们的模样~",
+  friendship: "也让我懂得了珍惜朋友的肩膀～",
+  sunshine: "阳光总会在风雨之后撒向苍茫~",
+  courage: "让我们抬起头~学会了坚强~",
+};
+
+const yaoLines = {
+  tellMe: "Tell Me👏 Tell Me👏",
+  mirror: "鏡👏よ鏡👏👏",
+  favoriteSelf: "一番👏好きな👏私👏になるの👏👏",
+  applause: "👏👏👏 👏👏👏 👏👏👏👏👏",
+};
+
+const nightHeronGreeting = "我是企鹅呱";
 
 export const characterDialogue = {
   hiyori: [
@@ -435,12 +465,28 @@ export const characterDialogue = {
     "因为主人……是第一个触碰到吾辈的人啊……",
     "主人给了吾辈许许多多的东西呢……！",
   ],
+  "friends-drink": Object.values(friendsWineLines),
+  yao: Object.values(yaoLines),
+  "night-heron": [
+    "你好呱",
+    "今天也来坐一会儿呱～",
+    "累了就歇一歇呱～",
+    "一起去河边散个步呱？",
+    "听，是水声呱。",
+    "天快黑了，刚好出来逛逛呱。",
+    "刚才差点打了个瞌睡呱。",
+    "今天有看到什么有趣的东西呱？",
+    nightHeronGreeting,
+    "到我胃里来呱",
+    "吹吹风也挺舒服呱～",
+  ],
 };
 
 export const specialDialogueGroups = [
   { label: "换人", slots: [["switchModelHover", "悬停"]] },
   { label: "换装", slots: [["switchOutfitHover", "悬停"], ["switchOutfit", "成功后"]] },
   { label: "拍照", slots: [["photoHover", "悬停"], ["photo", "拍照后"]] },
+  { label: "一言", slots: [["hitokotoHover", "悬停"]] },
   { label: "了解更多", slots: [["infoHover", "悬停"]] },
   { label: "退出", slots: [["hideHover", "悬停"], ["hide", "收起前"]] },
   { label: "飞机小游戏", slots: [["asteroidsHover", "悬停"], ["asteroids", "启动后"]] },
@@ -633,5 +679,50 @@ export const specialDialogue = {
     photo: ["不错呢。"],
     hideHover: [murasameLines.surprised],
     hide: [murasameLines.farewell],
+  },
+  "friends-drink": {
+    switchModelHover: [friendsWineLines.flowers],
+    switchOutfitHover: [friendsWineLines.ideals],
+    switchOutfit: [friendsWineLines.firstRefrain, friendsWineLines.secondRefrain],
+    photoHover: [friendsWineLines.courage],
+    photo: [friendsWineLines.cheer, friendsWineLines.happiness],
+    hitokotoHover: [friendsWineLines.past],
+    infoHover: [friendsWineLines.fullLine],
+    hideHover: [friendsWineLines.precious],
+    hide: [friendsWineLines.yesterday],
+    asteroidsHover: [friendsWineLines.courage],
+    asteroids: [friendsWineLines.secondRefrain, friendsWineLines.cheer],
+    appear: ["昨日一去不复回~"],
+    reappear: [friendsWineLines.toast],
+  },
+  yao: {
+    switchModelHover: [yaoLines.tellMe],
+    switchOutfitHover: [yaoLines.favoriteSelf],
+    switchOutfit: [yaoLines.applause],
+    photoHover: [yaoLines.mirror],
+    photo: [yaoLines.favoriteSelf, yaoLines.applause],
+    hitokotoHover: [yaoLines.tellMe],
+    infoHover: [yaoLines.mirror, yaoLines.tellMe],
+    hideHover: [yaoLines.tellMe],
+    hide: [yaoLines.applause],
+    asteroidsHover: [yaoLines.tellMe],
+    asteroids: [yaoLines.applause],
+    appear: [yaoLines.tellMe],
+    reappear: [yaoLines.applause],
+  },
+  "night-heron": {
+    switchModelHover: ["想看看别的朋友呱？"],
+    switchOutfitHover: ["你要见见我的兄弟姐妹呱?"],
+    switchOutfit: ["这一身还不错呱？"],
+    photoHover: ["要拍照呱?"],
+    photo: ["拍好了呱！"],
+    hitokotoHover: ["要听一句话呱？"],
+    infoHover: ["想多认识我一点呱？"],
+    hideHover: ["这就要说再见了呱？"],
+    hide: ["下次再见呱～"],
+    asteroidsHover: ["要来玩一局呱？"],
+    asteroids: ["准备起飞呱！"],
+    appear: [nightHeronGreeting],
+    reappear: ["你回来啦呱～"],
   },
 };

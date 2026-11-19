@@ -47,13 +47,27 @@
       "./candidates/sakiko/school-winter-2023.model.json",
       "./candidates/sakiko/event-297-story-01.model.json"
     ],
-    "./candidates/murasame/murasame.model3.json?v=interaction-1"
+    "./candidates/murasame/murasame.model3.json?v=interaction-1",
+    [
+      "./gif/friends-drink/loop.json",
+      "./gif/friends-drink/range.json",
+      "./gif/friends-drink/plush-loop.json",
+      "./gif/friends-drink/plush-speed.json"
+    ],
+    ["./gif/yao/loop.json"],
+    [
+      "./gif/night-heron/wave.json?v=2",
+      "./gif/night-heron/crossing.json",
+      "./gif/night-heron/bob-loop.json",
+      "./gif/night-heron/bob-range.json",
+      "./gif/night-heron/stretch.json"
+    ]
   ],
   "messages": [
     "来自 Potion Maker 的 Pio 酱 ~",
     "桃濑日和（Neuro-sama!?）",
     "ATRI",
-    "波奇酱",
+    "孤独摇滚！ · 后藤一里",
     "MyGO!!!!! · 高松灯",
     "MyGO!!!!! · 千早爱音",
     "MyGO!!!!! · 要乐奈",
@@ -61,7 +75,10 @@
     "MyGO!!!!! · 椎名立希",
     "Ave Mujica · 若叶睦",
     "Ave Mujica · 丰川祥子",
-    "千恋＊万花 · 丛雨"
+    "千恋＊万花 · 丛雨",
+    "昨日一去不复回~",
+    "Tell Me👏 Tell Me👏",
+    "我是企鹅呱"
   ],
   "characterIds": [
     "pio",
@@ -75,6 +92,13 @@
     "taki",
     "mutsumi",
     "sakiko",
-    "murasame"
-  ]
+    "murasame",
+    "friends-drink",
+    "yao",
+    "night-heron"
+  ],
+  "outfitNames": {
+    "friends-drink": ["原速循环", "上下跟随", "玩偶 · 原速循环", "玩偶 · 变速播放"],
+    "night-heron": ["挥手", "走过", "蹲起 · 循环", "蹲起 · 上下跟随", "侧步"]
+  }
 }

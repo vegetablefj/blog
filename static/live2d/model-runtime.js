@@ -1,6 +1,7 @@
 import { enableClassicInteractions } from "./classic-interactions.js";
-import { installCandidateInputs, setupCandidateModel } from "./cubism-candidates.js";
-import { applyPortrait } from "./portrait.js";
+import { installCandidateInputs, setupCandidateModel } from "./cubism-candidates.js?v=production-2";
+import { prepareGifRole } from "./gif-renderer.js?v=production-1";
+import { applyPortrait } from "./portrait.js?v=production-2";
 import { waitForCubism2Frame, waitForCubism5Frame } from "./renderer-ready.js";
 
 export function isManifestUrl(name) {
@@ -16,6 +17,8 @@ function loseContext(gl) {
 }
 
 function resetRenderer(manager) {
+  manager.gifRole?.dispose();
+  manager.gifRole = null;
   const classic = manager.cubism2model;
   if (classic) {
     manager.cubism2model = null;
@@ -43,23 +46,35 @@ export async function renderModel(manager, url, manifest, loadScript) {
   if (manager.loading) return false;
   const widget = document.getElementById("waifu");
   manager.loading = true;
+  let preparedGif;
   try {
-    const version = manager.checkModelVersion(manifest);
+    const gif = manifest.type === "gif";
+    const version = gif ? "gif" : manager.checkModelVersion(manifest);
     const classic = version === 2;
     // Prepare the new renderer before discarding the currently visible canvas.
-    const core = classic ? manager.cubism2Path : manager.cubism5Path;
-    if (!core) throw new Error("Live2D renderer is unavailable for Cubism " + version);
-    if (classic ? !window.Live2D : !window.Live2DCubismCore) await loadScript(core);
-    const renderer = await import(classic ? classicUrl : modernUrl);
+    let renderer;
+    if (gif) {
+      preparedGif = await prepareGifRole(url, manifest);
+    } else {
+      const core = classic ? manager.cubism2Path : manager.cubism5Path;
+      if (!core) throw new Error("Live2D renderer is unavailable for Cubism " + version);
+      if (classic ? !window.Live2D : !window.Live2DCubismCore) await loadScript(core);
+      renderer = await import(classic ? classicUrl : modernUrl);
+    }
 
     widget.classList.add("live2d-switching");
-    applyPortrait(url);
+    applyPortrait(url, gif);
     manager.rendered = false;
-    if (classic || !manager.cubism5model) {
-      if (manager.cubism2model || manager.cubism5model) resetRenderer(manager);
+    if (gif || classic || !manager.cubism5model) {
+      if (manager.gifRole || manager.cubism2model || manager.cubism5model) resetRenderer(manager);
     }
     let drawn;
-    if (classic) {
+    if (gif) {
+      manager.gifRole = preparedGif;
+      widget.querySelector("#waifu-canvas").replaceChildren(preparedGif.canvas);
+      preparedGif.mount(widget);
+      drawn = true;
+    } else if (classic) {
       const app = manager.cubism2model = new renderer.default();
       enableClassicInteractions(app);
       await app.init("live2d", url, manifest);
@@ -93,6 +108,7 @@ export async function renderModel(manager, url, manifest, loadScript) {
     }
     return false;
   } finally {
+    if (preparedGif && preparedGif !== manager.gifRole) preparedGif.dispose();
     manager.loading = false;
   }
 }

@@ -91,5 +91,7 @@ lastmod: 2026-11-19
 - **MyGO!!!!!** 五位成员使用 panxuc 整理的网页模型。该项目使用了 Bestdori 提供的《梦想协奏曲！少女乐团派对！》游戏数据。<a href="https://github.com/panxuc/live2d-widget-mygo/blob/2ee129159f5e75e376adfa997ae1b7de52d677d6/README.md" target="_blank" rel="noopener noreferrer">模型项目及来源说明</a>
 - **若叶睦、丰川祥子** 的模型文件来自暴躁的火龙果上传的 Live2DViewerEX 工坊包。<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3828726062" target="_blank" rel="noopener noreferrer">若叶睦</a> · <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3828741892" target="_blank" rel="noopener noreferrer">丰川祥子</a>
 - **丛雨** 出自柚子社的《千恋＊万花》，本站使用的 Live2D 模型与动作由穿越电线制作并发布。<a href="https://www.yuzu-soft.com/products/senren/chara.html" target="_blank" rel="noopener noreferrer">原作角色页</a> · <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2674825159" target="_blank" rel="noopener noreferrer">工坊模型</a>
+- **朋友的酒** 使用两份来自 B 站的动图。「邦友的酒」的原作者暂不可考，本站做了手动抠图。<a href="https://www.bilibili.com/opus/1254283338426875906" target="_blank" rel="noopener noreferrer">邦友的酒（动态）</a> · <a href="https://www.bilibili.com/video/BV12hHr6UEqc/" target="_blank" rel="noopener noreferrer">舟友的酒（视频）</a>
+- **遥、夜鹭** 的动图由博主提供，原始出处待补。
 
 模型与原作内容的权利归各自权利人，使用条件以来源页面和随附说明为准。桃濑日和使用的是株式会社 Live2D 的样例数据（©Live2D Inc.）；本站内容由博主独立制作，未经 Live2D 官方监修。

@@ -50,6 +50,22 @@ hugo --minify
 
 修改挂件行为时维护生成脚本和运行时适配，再运行 `node scripts/update-live2d-widget.mjs` 生成入口。运行 `hugo server` 后可打开 `/blog/live2d/dialogue-inspector.html` 查看台词。[生成脚本](scripts/update-live2d-widget.mjs) · [场景逻辑](scripts/patch-live2d-scenes.mjs) · [模型运行时](static/live2d/model-runtime.js)
 
+### GIF 角色
+
+用 Python 和 Pillow 将循环 GIF 或 WebP 转成帧图集和配置。下面的例子在视窗高度 90% 到 20% 之间依次显示第 0 至第 12 帧，帧号从零开始。
+
+```sh
+python scripts/prepare-waifu-gif.py input.gif static/live2d/gif/character.json --mode range-follow --start-frame 0 --end-frame 12
+```
+
+- `loop` 按原帧时长循环播放。
+- `speed-follow` 连续循环。光标越靠上越快。可以在每个角色的 JSON 中设置 `minRate` 和 `maxRate`，默认分别为 0.5 和 2 倍，最低速必须大于零。
+- `range-follow` 按光标高度选帧，越界时保持端点。可以用 `startFrame` 和 `endFrame` 选出动作的一段。原图缺少中间姿势时，可以像[「朋友的酒」](static/live2d/gif/friends-drink/range.json)一样用 `rangeScale` 指定参考帧和两个端点的纵向像素边界，连续改变画面高度。
+
+两种跟随模式都可以在生成的 JSON 中修改 `top`、`bottom` 和 `followMs`。默认值为 `0.2`、`0.9` 和 `150` 毫秒。把生成的配置用 `./gif/character.json` 的形式加入角色名单，并为角色 ID 配置台词。画面点击和拍照会使用当前帧。
+
+同一角色的多个配置可以列在一个数组里。只需改变播放模式或帧范围时，让这些配置指向同一张图集。在 `outfitNames` 里按相同顺序填写换装名称。`displayScale` 可调整单套服装的显示比例，默认值为 1。
+
 ## 致谢
 
 感谢 [D-Sketon](https://github.com/D-Sketon) 开发并持续维护 Reimu 主题，为这个博客提供了美观而完善的界面与功能。
@@ -70,5 +86,7 @@ hugo --minify
 - **MyGO!!!!!** 五位成员使用 panxuc 整理的网页模型。该项目使用了 Bestdori 提供的《梦想协奏曲！少女乐团派对！》游戏数据。<a href="https://github.com/panxuc/live2d-widget-mygo/blob/2ee129159f5e75e376adfa997ae1b7de52d677d6/README.md" target="_blank" rel="noopener noreferrer">模型项目及来源说明</a>
 - **若叶睦、丰川祥子** 的模型文件来自暴躁的火龙果上传的 Live2DViewerEX 工坊包。<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3828726062" target="_blank" rel="noopener noreferrer">若叶睦</a> · <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3828741892" target="_blank" rel="noopener noreferrer">丰川祥子</a>
 - **丛雨** 出自柚子社的《千恋＊万花》，本站使用的 Live2D 模型与动作由穿越电线制作并发布。<a href="https://www.yuzu-soft.com/products/senren/chara.html" target="_blank" rel="noopener noreferrer">原作角色页</a> · <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2674825159" target="_blank" rel="noopener noreferrer">工坊模型</a>
+- **朋友的酒** 使用两份来自 B 站的动图。「邦友的酒」的原作者暂不可考，本站做了手动抠图。<a href="https://www.bilibili.com/opus/1254283338426875906" target="_blank" rel="noopener noreferrer">邦友的酒（动态）</a> · <a href="https://www.bilibili.com/video/BV12hHr6UEqc/" target="_blank" rel="noopener noreferrer">舟友的酒（视频）</a>
+- **遥、夜鹭** 的动图由博主提供，原始出处待补。
 
 模型、贴图及原作内容的权利归各自权利人，使用条件以来源页面和随附说明为准，不随挂件代码统一授权。桃濑日和使用的是株式会社 Live2D 的样例数据（©Live2D Inc.）；本站内容由博主独立制作，未经 Live2D 官方监修。

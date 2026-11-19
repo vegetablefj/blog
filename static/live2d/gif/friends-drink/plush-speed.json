@@ -1,0 +1,15 @@
+{
+  "type": "gif",
+  "mode": "speed-follow",
+  "image": "./plush-loop.png",
+  "frameWidth": 384,
+  "frameHeight": 384,
+  "columns": 6,
+  "durations": [
+    100, 100, 100, 100, 100, 100, 100, 100, 100,
+    100, 100, 100, 100, 100, 100, 100, 100, 100,
+    100, 100, 100, 100, 100, 100, 100, 100, 100
+  ],
+  "minRate": 0.8,
+  "maxRate": 2
+}

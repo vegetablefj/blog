@@ -1,4 +1,4 @@
-import { characterDialogue, commonDialogue, getPioDialogue, idleDialogueWeights, specialDialogue, tabReturnDialogue, toolbarDialogue } from "./dialogue.js?v=production-1";
+import { characterDialogue, commonDialogue, getPioDialogue, idleDialogueWeights, specialDialogue, tabReturnDialogue, toolbarDialogue } from "./dialogue.js?v=production-7";
 
 export { tabReturnDialogue };
 

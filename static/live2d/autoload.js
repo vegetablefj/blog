@@ -11,12 +11,12 @@
     styles.href = widgetAssets + "waifu.css";
     const portrait = document.createElement("link");
     portrait.rel = "stylesheet";
-    portrait.href = new URL("portrait.css?v=production-1", localAsset);
+    portrait.href = new URL("portrait.css?v=production-2", localAsset);
     document.head.append(styles, portrait);
 
     const [outfitsResponse] = await Promise.all([
       fetch(new URL("outfits.json", localAsset)),
-      import(new URL("widget.js?v=production-1", localAsset)),
+      import(new URL("widget.js?v=production-8", localAsset)),
     ]);
     if (!outfitsResponse.ok) {
       throw new Error(`Could not load the outfit list: ${outfitsResponse.status}`);
@@ -25,7 +25,7 @@
     window.initWidget({
       waifuPath: widgetAssets + "waifu-tips.json",
       cdnPath: "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/",
-      modelListPath: new URL("models.json?v=production-1", localAsset).href,
+      modelListPath: new URL("models.json?v=production-7", localAsset).href,
       textureOverrides: await outfitsResponse.json(),
       cubism2Path: widgetAssets + "live2d.min.js",
       cubism5Path: "https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js",

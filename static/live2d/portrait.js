@@ -7,11 +7,12 @@ const portraitFolders = [
   ["sakiko-portrait", new URL("candidates/sakiko/", import.meta.url).href],
   ["murasame-portrait", new URL("candidates/murasame/", import.meta.url).href],
 ];
-export function applyPortrait(modelUrl) {
+export function applyPortrait(modelUrl, gif = false) {
   const url = new URL(modelUrl, location.href).href;
   const widget = document.getElementById("waifu");
+  widget.classList.toggle("gif-portrait", gif);
   for (const [className, folder] of portraitFolders) {
-    const active = url.startsWith(folder);
+    const active = !gif && url.startsWith(folder);
     widget.classList.toggle(className, active);
   }
 }

@@ -1,0 +1,25 @@
+{
+  "type": "gif",
+  "mode": "loop",
+  "image": "./loop.png",
+  "frameWidth": 480,
+  "frameHeight": 480,
+  "columns": 4,
+  "durations": [
+    80,
+    170,
+    80,
+    130,
+    160,
+    130,
+    120,
+    130,
+    120,
+    90,
+    120,
+    130,
+    120,
+    130,
+    120
+  ]
+}

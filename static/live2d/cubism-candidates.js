@@ -2,6 +2,8 @@ import { pickNextIndex } from "./selection.js";
 
 const activeCandidates = new WeakMap();
 const installedApps = new WeakSet();
+const tapMotionPriority = 2;
+const gazeTransitionMs = 160;
 export const presets = {
   atri: [
     { label: "默认", values: {} },
@@ -46,6 +48,32 @@ function maskBufferCount(rig) {
   return groups.size <= 36 ? 1 : Math.ceil(groups.size / 32);
 }
 
+function blendVerticalGaze(state, rig) {
+  const { model } = state;
+  const eyeY = model._idParamEyeBallY;
+  const addParameter = rig.addParameterValueById.bind(rig);
+  let mix = 0;
+  let previousFrame = performance.now();
+  rig.addParameterValueById = (id, offset, weight) => {
+    if (id !== eyeY || weight !== undefined) {
+      return addParameter(id, offset, weight);
+    }
+
+    const now = performance.now();
+    const step = Math.min(1, (now - previousFrame) / gazeTransitionMs);
+    previousFrame = now;
+    const queue = model._motionManager;
+    const follow = state.followsCursor && queue.getCurrentPriority() < tapMotionPriority &&
+      queue.getReservePriority() < tapMotionPriority;
+    mix = follow ? Math.min(1, mix + step) : Math.max(0, mix - step);
+    // The SDK adds dragY after the motion. Blend toward an absolute gaze instead.
+    if (mix > 0) {
+      const gaze = Math.max(-0.85, Math.min(0.85, offset));
+      rig.setParameterValueById(eyeY, gaze, mix);
+    }
+  };
+}
+
 function visibleClickPosition(app, event) {
   const subdelegate = app.subdelegates.at(0);
   const canvas = subdelegate.getCanvas();
@@ -83,15 +111,14 @@ function interact(app, event) {
     const y = view.transformViewY(position.y);
     if (state.kind === "hiyori" && !model.hitTest("Body", x, y)) return;
 
-    const priority = 2;
     const queue = model._motionManager;
-    if (queue.getCurrentPriority() >= priority || queue.getReservePriority() >= priority) return;
+    if (queue.getCurrentPriority() >= tapMotionPriority || queue.getReservePriority() >= tapMotionPriority) return;
     if (state.kind === "hiyori" || !model.hitTest("face", x, y)) {
       const count = model._modelSetting.getMotionCount("TapBody");
       const index = pickNextIndex(count, state.motion, "interaction");
       if (index >= 0) {
         clearFace(state);
-        model.startMotion("TapBody", index, priority);
+        model.startMotion("TapBody", index, tapMotionPriority);
         state.motion = index;
       }
       return;
@@ -116,6 +143,21 @@ export function installCandidateInputs(app) {
   });
 
   const manager = app.subdelegates.at(0).getLive2DManager();
+  const nativeDrag = manager.onDrag.bind(manager);
+  manager.onDrag = (x, y) => {
+    const state = activeCandidates.get(app);
+    if (state?.kind === "murasame") {
+      state.followsCursor = x !== 0 || y !== 0;
+      y = Math.max(-1, Math.min(1, y));
+    }
+    nativeDrag(x, y);
+  };
+  const stopFollowing = () => {
+    if (activeCandidates.get(app)?.kind === "murasame") manager.onDrag(0, 0);
+  };
+  document.documentElement.addEventListener("pointerleave", stopFollowing);
+  window.addEventListener("blur", stopFollowing);
+
   const nativeTap = manager.onTap.bind(manager);
   manager.onTap = (x, y) => {
     if (!activeCandidates.has(app)) nativeTap(x, y);
@@ -127,6 +169,8 @@ export function installCandidateInputs(app) {
     clearTimeout(activeCandidates.get(app)?.timer);
     activeCandidates.delete(app);
     document.removeEventListener("click", click);
+    document.documentElement.removeEventListener("pointerleave", stopFollowing);
+    window.removeEventListener("blur", stopFollowing);
     release();
   };
 }
@@ -139,13 +183,18 @@ export function setupCandidateModel(app, url) {
   const model = app.subdelegates.at(0).getLive2DManager()._models.at(0);
   const state = {
     kind, model, ready: false, parameters: new Map(),
-    faces: [], face: -1, motion: -1, outfit: 0, timer: undefined,
+    faces: [], face: -1, motion: -1, outfit: 0, timer: undefined, followsCursor: false,
   };
   activeCandidates.set(app, state);
   const createRenderer = model.createRenderer.bind(model);
+  let gazeRig;
   model.createRenderer = () => {
     const rig = model.getModel();
     createRenderer(maskBufferCount(rig));
+    if (kind === "murasame" && rig !== gazeRig) {
+      blendVerticalGaze(state, rig);
+      gazeRig = rig;
+    }
     const setting = model._modelSetting;
     state.faces = Array.from({ length: setting.getExpressionCount() }, (_, index) =>
       setting.getExpressionName(index)
