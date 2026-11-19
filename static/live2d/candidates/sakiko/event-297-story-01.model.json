@@ -1,0 +1,42 @@
+{
+  "model": "model_5.moc",
+  "textures": [
+    "motions_start_0_post_command_5.png",
+    "motions_start_0_post_command_5_5.png"
+  ],
+  "physics": "physics_5.json",
+  "hit_areas_custom": {
+    "head_x": [],
+    "head_y": [
+      -0.2
+    ],
+    "body_x": [],
+    "body_y": []
+  },
+  "motions": {
+    "idle": [
+      {
+        "file": "motions_idle_0_file_5.mtn"
+      }
+    ],
+    "flick_head": [
+      {
+        "file": "motions_body_95_file_5.mtn"
+      },
+      {
+        "file": "motions_body_96_file_5.mtn"
+      },
+      {
+        "file": "motions_body_102_file_5.mtn"
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "motions_body_8_file_5.mtn"
+      },
+      {
+        "file": "motions_body_16_file_5.mtn"
+      }
+    ]
+  }
+}

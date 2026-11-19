@@ -1,0 +1,80 @@
+{
+  "models": [
+    "Potion-Maker/Pio",
+    "./candidates/hiyori/Hiyori.model3.json",
+    "./candidates/atri/atri_8.model3.json",
+    "./candidates/bocchi/Bocchi.model3.json",
+    [
+      "https://cdn.jsdelivr.net/gh/panxuc/live2d-widget-mygo@2ee129159f5e75e376adfa997ae1b7de52d677d6/public/model/tomori/036_casual-2023/index.json",
+      "https://cdn.jsdelivr.net/gh/panxuc/live2d-widget-mygo@2ee129159f5e75e376adfa997ae1b7de52d677d6/public/model/tomori/036_school_summer-2023/index.json",
+      "https://cdn.jsdelivr.net/gh/panxuc/live2d-widget-mygo@2ee129159f5e75e376adfa997ae1b7de52d677d6/public/model/tomori/036_school_winter-2023/index.json",
+      "https://cdn.jsdelivr.net/gh/panxuc/live2d-widget-mygo@2ee129159f5e75e376adfa997ae1b7de52d677d6/public/model/tomori/036_live_default/index.json"
+    ],
+    [
+      "https://cdn.jsdelivr.net/gh/panxuc/live2d-widget-mygo@2ee129159f5e75e376adfa997ae1b7de52d677d6/public/model/anon/037_casual-2023/index.json",
+      "https://cdn.jsdelivr.net/gh/panxuc/live2d-widget-mygo@2ee129159f5e75e376adfa997ae1b7de52d677d6/public/model/anon/037_school_summer-2023/index.json",
+      "https://cdn.jsdelivr.net/gh/panxuc/live2d-widget-mygo@2ee129159f5e75e376adfa997ae1b7de52d677d6/public/model/anon/037_school_winter-2023/index.json",
+      "https://cdn.jsdelivr.net/gh/panxuc/live2d-widget-mygo@2ee129159f5e75e376adfa997ae1b7de52d677d6/public/model/anon/037_live_default/index.json"
+    ],
+    [
+      "https://cdn.jsdelivr.net/gh/panxuc/live2d-widget-mygo@2ee129159f5e75e376adfa997ae1b7de52d677d6/public/model/rana/038_casual-2023/index.json",
+      "https://cdn.jsdelivr.net/gh/panxuc/live2d-widget-mygo@2ee129159f5e75e376adfa997ae1b7de52d677d6/public/model/rana/038_school_summer-2023/index.json",
+      "https://cdn.jsdelivr.net/gh/panxuc/live2d-widget-mygo@2ee129159f5e75e376adfa997ae1b7de52d677d6/public/model/rana/038_school_winter-2023/index.json",
+      "https://cdn.jsdelivr.net/gh/panxuc/live2d-widget-mygo@2ee129159f5e75e376adfa997ae1b7de52d677d6/public/model/rana/038_live_default/index.json"
+    ],
+    [
+      "https://cdn.jsdelivr.net/gh/panxuc/live2d-widget-mygo@2ee129159f5e75e376adfa997ae1b7de52d677d6/public/model/soyo/039_casual-2023/index.json",
+      "https://cdn.jsdelivr.net/gh/panxuc/live2d-widget-mygo@2ee129159f5e75e376adfa997ae1b7de52d677d6/public/model/soyo/039_school_summer-2023/index.json",
+      "https://cdn.jsdelivr.net/gh/panxuc/live2d-widget-mygo@2ee129159f5e75e376adfa997ae1b7de52d677d6/public/model/soyo/039_school_winter-2023/index.json",
+      "https://cdn.jsdelivr.net/gh/panxuc/live2d-widget-mygo@2ee129159f5e75e376adfa997ae1b7de52d677d6/public/model/soyo/039_live_default/index.json"
+    ],
+    [
+      "https://cdn.jsdelivr.net/gh/panxuc/live2d-widget-mygo@2ee129159f5e75e376adfa997ae1b7de52d677d6/public/model/taki/040_casual-2023/index.json",
+      "https://cdn.jsdelivr.net/gh/panxuc/live2d-widget-mygo@2ee129159f5e75e376adfa997ae1b7de52d677d6/public/model/taki/040_school_summer-2023/index.json",
+      "https://cdn.jsdelivr.net/gh/panxuc/live2d-widget-mygo@2ee129159f5e75e376adfa997ae1b7de52d677d6/public/model/taki/040_school_winter-2023/index.json",
+      "https://cdn.jsdelivr.net/gh/panxuc/live2d-widget-mygo@2ee129159f5e75e376adfa997ae1b7de52d677d6/public/model/taki/040_live_default/index.json"
+    ],
+    [
+      "./candidates/mutsumi/casual-2023.model.json",
+      "./candidates/mutsumi/school-summer-2023.model.json",
+      "./candidates/mutsumi/school-winter-2023.model.json",
+      "./candidates/mutsumi/event-297-story-01.model.json"
+    ],
+    [
+      "./candidates/sakiko/casual-2023.model.json",
+      "./candidates/sakiko/jh-school-winter-2023.model.json",
+      "./candidates/sakiko/school-summer-2023.model.json",
+      "./candidates/sakiko/school-winter-2023.model.json",
+      "./candidates/sakiko/event-297-story-01.model.json"
+    ],
+    "./candidates/murasame/murasame.model3.json?v=interaction-1"
+  ],
+  "messages": [
+    "来自 Potion Maker 的 Pio 酱 ~",
+    "桃濑日和（Neuro-sama!?）",
+    "ATRI",
+    "波奇酱",
+    "MyGO!!!!! · 高松灯",
+    "MyGO!!!!! · 千早爱音",
+    "MyGO!!!!! · 要乐奈",
+    "MyGO!!!!! · 长崎爽世",
+    "MyGO!!!!! · 椎名立希",
+    "Ave Mujica · 若叶睦",
+    "Ave Mujica · 丰川祥子",
+    "千恋＊万花 · 丛雨"
+  ],
+  "characterIds": [
+    "pio",
+    "hiyori",
+    "atri",
+    "bocchi",
+    "tomori",
+    "anon",
+    "rana",
+    "soyo",
+    "taki",
+    "mutsumi",
+    "sakiko",
+    "murasame"
+  ]
+}

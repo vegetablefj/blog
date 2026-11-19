@@ -1,0 +1,2 @@
+# Preserve the original bytes of Live2D motion exports.
+static/live2d/candidates/**/*.mtn -text -diff

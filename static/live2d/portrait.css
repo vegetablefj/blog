@@ -1,0 +1,113 @@
+#waifu,
+#waifu:hover {
+  transform: none;
+}
+
+#waifu {
+  --waifu-canvas-size: min(300px, 90vw);
+}
+
+#waifu-canvas {
+  position: relative;
+  width: var(--waifu-canvas-size);
+  /* Standard canvases are square. Keep the top 78% in view. */
+  height: calc(var(--waifu-canvas-size) * 0.783333);
+  overflow: hidden;
+}
+
+#waifu #live2d {
+  display: block;
+  width: var(--waifu-canvas-size);
+  height: var(--waifu-canvas-size);
+}
+
+#waifu.pio-portrait #live2d {
+  translate: 0 -12px;
+}
+
+#waifu #waifu-tips {
+  top: auto;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  margin: 0;
+  translate: -50% 0;
+  box-sizing: border-box;
+  width: min(270px, calc(100vw - 24px));
+  min-height: 0;
+  height: 72px;
+  line-height: 20px;
+  overflow: auto;
+  word-break: normal;
+  overflow-wrap: anywhere;
+  animation: none;
+}
+
+#waifu #waifu-tips:not(.waifu-tips-active) {
+  pointer-events: none;
+}
+
+#waifu.bocchi-portrait {
+  --portrait-size: 550px;
+  --portrait-top: -40px;
+}
+
+#waifu.atri-portrait {
+  --portrait-size: 620px;
+  --portrait-top: 0px;
+}
+
+#waifu.hiyori-portrait {
+  --portrait-size: 690px;
+  --portrait-top: -32px;
+}
+
+#waifu.mutsumi-portrait {
+  --portrait-size: calc(var(--waifu-canvas-size) * 1.4);
+  --portrait-top: calc(var(--waifu-canvas-size) * -0.06);
+}
+
+#waifu.sakiko-portrait {
+  --portrait-size: calc(var(--waifu-canvas-size) * 1.4);
+  --portrait-top: calc(var(--waifu-canvas-size) * -0.06);
+}
+
+#waifu.murasame-portrait {
+  --portrait-size: calc(var(--waifu-canvas-size) * 1.95);
+  --portrait-top: -5px;
+  --portrait-center: 60%;
+}
+
+#waifu.live2d-switching #live2d {
+  visibility: hidden;
+}
+
+#waifu:is(.bocchi-portrait, .atri-portrait, .hiyori-portrait, .mutsumi-portrait, .sakiko-portrait, .murasame-portrait) #live2d {
+  position: absolute;
+  top: var(--portrait-top);
+  left: var(--portrait-center, 50%);
+  width: var(--portrait-size);
+  height: var(--portrait-size);
+  max-width: none;
+  transform: translateX(-50%);
+}
+
+#waifu #waifu-tool {
+  top: 6px;
+  bottom: 6px;
+  gap: 2px;
+  z-index: 1;
+}
+
+#waifu #waifu-tool > span {
+  display: grid;
+  place-items: center;
+  flex: 1 1 0;
+  min-height: 0;
+  width: 30px;
+  cursor: pointer;
+}
+
+#waifu #waifu-tool svg {
+  height: min(22px, 100%);
+  max-width: 100%;
+}

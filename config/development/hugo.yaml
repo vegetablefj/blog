@@ -1,2 +1,9 @@
 baseURL: http://localhost:1313/blog/
 publishDir: public-dev
+
+module:
+  mounts:
+    - source: static
+      target: static
+    - source: dev/static
+      target: static

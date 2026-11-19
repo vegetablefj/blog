@@ -1,0 +1,49 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "Bocchi.moc3",
+    "Textures": [
+      "texture_00.png",
+      "texture_01.png",
+      "texture_02.png",
+      "texture_03.png"
+    ],
+    "Physics": "Bocchi.physics3.json",
+    "Motions": {
+      "Idle": [
+        {
+          "File": "Scene1.motion3.json"
+        }
+      ]
+    },
+    "Expressions": [
+      {
+        "Name": "face-4",
+        "File": "expression4.exp3.json"
+      },
+      {
+        "Name": "face-6",
+        "File": "expression6.exp3.json"
+      },
+      {
+        "Name": "face-7",
+        "File": "expression7.exp3.json"
+      }
+    ]
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": []
+    }
+  ]
+}

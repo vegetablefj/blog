@@ -56,8 +56,7 @@ js:
     base: fastly_jsdelivr_gh|D-Sketon/plugin-live2d/
     js: fastly_jsdelivr_gh|D-Sketon/plugin-live2d/js/live2d-autoload.js
   live2d_widgets:
-    src: webcache|live2d-widgets@0.9.0/autoload.js
-    integrity: sha384-poTN7wN/SqNhQqo3jdFeX20ikddWeFGkUkDEzsKjgH/ez8aQLn81oI0Cw6q5xNyB
+    src: live2d/autoload.js?v=production-1
   md5:
     src: webcache|blueimp-md5@2.19.0/js/md5.min.js
     integrity: sha384-JmVtRz6RWiXnA14QbIOJzPuU3MidULOpBP66deeLLyyoF4Tr/gZlbkHkL6vTthxH

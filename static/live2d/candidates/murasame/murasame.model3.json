@@ -1,0 +1,64 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "Moc_0.moc3",
+    "Textures": [
+      "Textures_0_0.png"
+    ],
+    "Physics": "Physics_0.json",
+    "Motions": {
+      "Idle": [
+        {
+          "File": "Motions_Idle_0_File_0.motion3.json"
+        }
+      ],
+      "TapBody": [
+        {
+          "File": "Motions_Tapface_1_File_0.motion3.json"
+        },
+        {
+          "File": "Motions_Taphair_0_File_0.motion3.json"
+        },
+        {
+          "File": "Motions_Taphair_1_File_0.motion3.json"
+        }
+      ]
+    },
+    "Expressions": [
+      {
+        "Name": "face-1",
+        "File": "face-1.exp3.json"
+      },
+      {
+        "Name": "face-2",
+        "File": "face-2.exp3.json"
+      },
+      {
+        "Name": "face-3",
+        "File": "face-3.exp3.json"
+      },
+      {
+        "Name": "face-4",
+        "File": "face-4.exp3.json"
+      },
+      {
+        "Name": "face-5",
+        "File": "face-5.exp3.json"
+      },
+      {
+        "Name": "face-6",
+        "File": "face-6.exp3.json"
+      },
+      {
+        "Name": "face-7",
+        "File": "face-7.exp3.json"
+      }
+    ]
+  },
+  "HitAreas": [
+    {
+      "Name": "face",
+      "Id": "HitArea"
+    }
+  ]
+}

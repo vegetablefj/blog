@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>看板娘台词</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --page: #f6f6f9;
+      --card: #fff;
+      --text: #222234;
+      --muted: #5c6074;
+      --line: #dedfe8;
+      --accent: #3948a0;
+      --accent-bg: #eceeff;
+      font-family: system-ui, 'Microsoft YaHei', sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --page: #191a22;
+        --card: #232530;
+        --text: #efeff7;
+        --muted: #b3b6c9;
+        --line: #414453;
+        --accent: #c0c7ff;
+        --accent-bg: #30365c;
+      }
+    }
+    * { box-sizing: border-box }
+    body { margin: 0; background: var(--page); color: var(--text); line-height: 1.45 }
+    main { max-width: 1760px; margin: auto; padding: 20px clamp(10px, 2vw, 28px) 36px }
+    header { display: flex; gap: 12px 24px; align-items: center; justify-content: space-between; flex-wrap: wrap }
+    h1 { margin: 0; font-size: 1.4rem }
+    a { color: var(--accent) }
+    .links { display: flex; flex-wrap: wrap; gap: 16px; font-size: .86rem }
+    .toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin-top: 12px }
+    .tabs { display: flex; flex-wrap: wrap; gap: 5px }
+    button, input, select { font: inherit; color: inherit }
+    button, input, select {
+      border: 1px solid var(--line); border-radius: 6px; background: var(--card);
+      padding: 3px 8px; min-height: 32px; font-size: .85rem;
+    }
+    button { cursor: pointer }
+    button[aria-pressed="true"] { color: var(--accent); border-color: var(--accent); background: var(--accent-bg); font-weight: 650 }
+    button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+    .filters { display: grid; gap: 6px; grid-template-columns: minmax(110px, 1.35fr) minmax(80px, 1fr) minmax(100px, 1fr); flex: 1; max-width: 570px }
+    select, input { width: 100%; min-width: 0 }
+    .note { color: var(--muted); font-size: .83rem; margin: 9px 0 }
+    .table-region { overflow: auto; border: 1px solid var(--line); border-radius: 7px; background: var(--card); margin-bottom: 12px }
+    table { border-spacing: 0; width: 100%; font-size: .82rem }
+    th, td { padding: 5px 8px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: middle }
+    tbody tr:last-child > * { border-bottom: 0 }
+    thead th { background: var(--page); white-space: nowrap; font-weight: 650 }
+    .matrix { table-layout: fixed }
+    .matrix th, .matrix td { text-align: center }
+    .matrix .role { position: sticky; left: 0; z-index: 1; text-align: left; white-space: nowrap; width: 90px; background: var(--card); box-shadow: 1px 0 var(--line) }
+    .matrix thead .role { background: var(--page) }
+    .matrix .group-end { border-right: 1px solid var(--line) }
+    .matrix .entry { padding: 2px }
+    .matrix .entry-btn { background: var(--accent-bg); color: var(--accent); border: 0; width: 100%; padding: 3px 4px; min-height: 30px; font-size: .76rem; line-height: 1.35; position: relative }
+    .entry-btn:hover { outline: 1px solid var(--accent) }
+    .entry-preview { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; overflow-wrap: anywhere }
+    .entry-btn.has-more { padding-right: 16px }
+    .line-count { position: absolute; top: 2px; right: 4px; font-size: .68rem }
+    .plain-list td { overflow-wrap: anywhere }
+    .plain-list .minor { color: var(--muted); font-size: .76rem }
+    .plain-list .row-role { white-space: nowrap; font-weight: 550 }
+    .empty { color: var(--muted) }
+    dialog { width: min(580px, calc(100% - 28px)); border: 1px solid var(--line); border-radius: 9px; background: var(--card); color: var(--text); padding: 16px }
+    dialog::backdrop { background: #1013268c }
+    .detail-header { display: flex; gap: 10px; justify-content: space-between; align-items: center }
+    .detail-header h2 { margin: 0; font-size: 1rem }
+    .detail-lines { padding-left: 1.3em; margin-bottom: 0; white-space: pre-wrap; overflow-wrap: anywhere }
+    .detail-lines li + li { margin-top: 6px }
+    @media (max-width: 580px) {
+      .filters { flex-basis: 100%; grid-template-columns: 1fr 1fr }
+      #query { grid-column: 1 / -1 }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>看板娘台词</h1>
+      <nav class="links" aria-label="台词来源">
+        <a href="./dialogue.js">查看配置</a>
+        <a href="../">返回博客</a>
+      </nav>
+    </header>
+    <div class="toolbar">
+      <nav class="tabs" aria-label="台词类别">
+        <button type="button" data-section="special" aria-pressed="true">特殊动作</button>
+        <button type="button" data-section="daily" aria-pressed="false">日常与公共</button>
+        <button type="button" data-section="template" aria-pressed="false">模板文案</button>
+        <button type="button" data-section="all" aria-pressed="false">全部</button>
+      </nav>
+      <div class="filters">
+        <input id="query" type="search" aria-label="搜索台词" placeholder="搜索台词" autocomplete="off">
+        <select id="role" aria-label="角色"></select>
+        <select id="scene" aria-label="场景"></select>
+      </div>
+    </div>
+    <p id="note" class="note" role="status">正在读取台词…</p>
+    <div id="results"></div>
+    <dialog id="detail" aria-labelledby="detail-title">
+      <form method="dialog" class="detail-header">
+        <h2 id="detail-title"></h2>
+        <button type="submit" autofocus>关闭</button>
+      </form>
+      <ul id="detail-lines" class="detail-lines"></ul>
+    </dialog>
+    <noscript>需要启用 JavaScript 才能读取和筛选台词。</noscript>
+  </main>
+  <script type="module" src="./dialogue-inspector.js?v=registry-1"></script>
+</body>
+</html>
